@@ -1,0 +1,2065 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (gz-waves1) JobQueued: {'identifier': 'gz-waves1', 'dependencies': OrderedDict()}
+[0.000234] (gz-waves1) JobStarted: {'identifier': 'gz-waves1'}
+[0.010455] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'cmake'}
+[0.010786] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves', '-DCMAKE_INSTALL_PREFIX=/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1'], 'cwd': '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aceti/ASV_WORK/gz_ws/src/ardupilot_gazebo/build::/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/aceti/ardupilot_gazebo/models:/home/aceti/ASV_WORK/gz_ws/src/ardupilot_gazebo/worlds::/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/aceti/ASV_WORK/SITL_Models/Gazebo/models:/home/aceti/ASV_WORK/SITL_Models/Gazebo/worlds'), ('USER', 'aceti'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aceti'), ('OLDPWD', '/home/aceti/ASV_WORK/b'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aceti'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aceti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aceti/gems/bin:/usr/lib/ccache:/home/aceti/ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/aceti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aceti-Lenovo-V15-IIL:@/tmp/.ICE-unix/2267,unix/aceti-Lenovo-V15-IIL:/tmp/.ICE-unix/2267'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03505fcd_7707_454b_bea9_3ac09256b69f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0E3CU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/aceti/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099542] (-) TimerEvent: {}
+[0.138499] (gz-waves1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199717] (-) TimerEvent: {}
+[0.276880] (gz-waves1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.297089] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299859] (-) TimerEvent: {}
+[0.400255] (-) TimerEvent: {}
+[0.437391] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.451566] (gz-waves1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.452161] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.453342] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.459476] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500443] (-) TimerEvent: {}
+[0.600921] (-) TimerEvent: {}
+[0.617951] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.632957] (gz-waves1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.633668] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.634610] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.656911] (gz-waves1) StdoutLine: {'line': b'-- gz-waves1 version 1.0.0\n'}
+[0.657140] (gz-waves1) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.669115] (gz-waves1) StdoutLine: {'line': b'-- Found CPack generators: DEB\n'}
+[0.701037] (-) TimerEvent: {}
+[0.801439] (-) TimerEvent: {}
+[0.901918] (-) TimerEvent: {}
+[1.002471] (-) TimerEvent: {}
+[1.102924] (-) TimerEvent: {}
+[1.203368] (-) TimerEvent: {}
+[1.303993] (-) TimerEvent: {}
+[1.404637] (-) TimerEvent: {}
+[1.505191] (-) TimerEvent: {}
+[1.605744] (-) TimerEvent: {}
+[1.706336] (-) TimerEvent: {}
+[1.806928] (-) TimerEvent: {}
+[1.907499] (-) TimerEvent: {}
+[2.008059] (-) TimerEvent: {}
+[2.108688] (-) TimerEvent: {}
+[2.209292] (-) TimerEvent: {}
+[2.309908] (-) TimerEvent: {}
+[2.410483] (-) TimerEvent: {}
+[2.511090] (-) TimerEvent: {}
+[2.611599] (-) TimerEvent: {}
+[2.712048] (-) TimerEvent: {}
+[2.812596] (-) TimerEvent: {}
+[2.913043] (-) TimerEvent: {}
+[3.013468] (-) TimerEvent: {}
+[3.113917] (-) TimerEvent: {}
+[3.176278] (gz-waves1) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams system filesystem \n'}
+[3.183911] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.185088] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[3.189564] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.190343] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[3.192802] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[3.197333] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.4.0\n'}
+[3.198199] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[3.214050] (-) TimerEvent: {}
+[3.215732] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 - found\n'}
+[3.215942] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.220920] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[3.221585] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[3.222139] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.222731] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.234698] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.236134] (gz-waves1) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.242443] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.257402] (gz-waves1) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.307762] (gz-waves1) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.309302] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[3.313651] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.6.0\n'}
+[3.314122] (-) TimerEvent: {}
+[3.314579] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[3.315313] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.327394] (gz-waves1) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[3.328572] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[3.332655] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.6.0\n'}
+[3.333569] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[3.334227] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.335737] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 - found\n'}
+[3.335939] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.340684] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[3.341536] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[3.342247] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.343119] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[3.343389] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[3.347556] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[3.348208] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[3.349955] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[3.353815] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[3.354447] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[3.355270] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[3.358284] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[3.358920] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[3.359617] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 - found\n'}
+[3.359723] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.362828] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[3.363244] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs9\n'}
+[3.414315] (-) TimerEvent: {}
+[3.514745] (-) TimerEvent: {}
+[3.615192] (-) TimerEvent: {}
+[3.677556] (gz-waves1) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.679321] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.688268] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.707731] (gz-waves1) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.715378] (-) TimerEvent: {}
+[3.762057] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 - found\n'}
+[3.762320] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.766942] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.1\n'}
+[3.767802] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[3.815572] (-) TimerEvent: {}
+[3.828615] (gz-waves1) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.833105] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.849876] (gz-waves1) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.907835] (gz-waves1) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.915731] (-) TimerEvent: {}
+[3.920886] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.921747] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[3.923159] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 - found\n'}
+[3.923350] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.928229] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.2\n'}
+[3.929111] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering7\n'}
+[3.929809] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.930737] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[3.931558] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[3.932072] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.932339] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.932517] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.946515] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[3.947287] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[3.947953] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[3.952341] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.6.0\n'}
+[3.953322] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[3.953944] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.954676] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[3.956334] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[3.957025] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[3.957549] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.957777] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[3.960891] (gz-waves1) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[3.961648] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[3.963682] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.969937] (gz-waves1) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[3.971391] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 - found\n'}
+[3.971491] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.975697] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sim7 -- found version 7.7.0\n'}
+[3.976164] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim7\n'}
+[3.978997] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.6.0\n'}
+[3.979392] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of sdformat13\n'}
+[3.985294] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[3.985666] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.986767] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[3.987149] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.1\n'}
+[3.987603] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[4.015830] (-) TimerEvent: {}
+[4.019437] (gz-waves1) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[4.023732] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.034200] (gz-waves1) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[4.090997] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.091726] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[4.092019] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [log]\n'}
+[4.096397] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12-log -- found version 12.2.1\n'}
+[4.097265] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-log\n'}
+[4.098545] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [parameters]\n'}
+[4.102660] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12-parameters -- found version 12.2.1\n'}
+[4.103558] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-parameters\n'}
+[4.105552] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[4.106330] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[4.107147] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[4.107761] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.108035] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.108181] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.115984] (-) TimerEvent: {}
+[4.119972] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[4.123525] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.6.0\n'}
+[4.124074] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[4.124854] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[4.125396] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[4.128354] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.6.0\n'}
+[4.129002] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[4.134768] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[4.149979] (gz-waves1) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[4.204398] (gz-waves1) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[4.213828] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[4.216146] (-) TimerEvent: {}
+[4.236217] (gz-waves1) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[4.296847] (gz-waves1) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[4.306362] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[4.316318] (-) TimerEvent: {}
+[4.326919] (gz-waves1) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[4.385883] (gz-waves1) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[4.395496] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[4.415668] (gz-waves1) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[4.416416] (-) TimerEvent: {}
+[4.472598] (gz-waves1) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[4.481915] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[4.502164] (gz-waves1) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[4.516629] (-) TimerEvent: {}
+[4.556367] (gz-waves1) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[4.557865] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[4.562004] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.6.0\n'}
+[4.562974] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[4.568457] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-fuel_tools8 -- found version 8.1.0\n'}
+[4.569299] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools8\n'}
+[4.616738] (-) TimerEvent: {}
+[4.704417] (gz-waves1) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.716848] (-) TimerEvent: {}
+[4.721474] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.742775] (gz-waves1) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.798894] (gz-waves1) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.810823] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.816965] (-) TimerEvent: {}
+[4.831165] (gz-waves1) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.886108] (gz-waves1) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.886878] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.887686] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[4.888531] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[4.889308] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.889586] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.889736] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.904008] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[4.908257] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.6.0\n'}
+[4.909227] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[4.911318] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[4.912025] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[4.917084] (-) TimerEvent: {}
+[4.917858] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-gui7 -- found version 7.2.1\n'}
+[4.918712] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui7\n'}
+[4.955933] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.956251] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[4.956748] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[4.957182] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[4.957565] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.1\n'}
+[4.957950] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.2\n'}
+[4.958335] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[4.991452] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6 -- found version 6.5.1\n'}
+[4.991761] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6\n'}
+[4.992020] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[4.992419] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[4.992844] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.993957] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [heightmap]\n'}
+[4.995991] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6-heightmap -- found version 6.5.1\n'}
+[4.996329] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-heightmap\n'}
+[4.996764] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[4.997323] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [mesh]\n'}
+[4.999470] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6-mesh -- found version 6.5.1\n'}
+[4.999828] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-mesh\n'}
+[5.000143] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[5.000772] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [sdf]\n'}
+[5.002688] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6-sdf -- found version 6.5.1\n'}
+[5.003052] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-sdf\n'}
+[5.003381] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.6.0\n'}
+[5.006898] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.007238] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7\n'}
+[5.017182] (-) TimerEvent: {}
+[5.027284] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[5.027619] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[5.028008] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.1\n'}
+[5.028345] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.2\n'}
+[5.028775] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.0\n'}
+[5.029151] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.6.0\n'}
+[5.029850] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_pressure]\n'}
+[5.032185] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_pressure -- found version 7.3.0\n'}
+[5.032536] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_pressure\n'}
+[5.033216] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_speed]\n'}
+[5.035414] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_speed -- found version 7.3.0\n'}
+[5.035817] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_speed\n'}
+[5.036378] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [altimeter]\n'}
+[5.038525] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-altimeter -- found version 7.3.0\n'}
+[5.038907] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-altimeter\n'}
+[5.039471] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [imu]\n'}
+[5.041464] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-imu -- found version 7.3.0\n'}
+[5.041849] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-imu\n'}
+[5.042452] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [force_torque]\n'}
+[5.044505] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-force_torque -- found version 7.3.0\n'}
+[5.045053] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-force_torque\n'}
+[5.045678] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [logical_camera]\n'}
+[5.047763] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-logical_camera -- found version 7.3.0\n'}
+[5.048195] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-logical_camera\n'}
+[5.048834] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [magnetometer]\n'}
+[5.050921] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-magnetometer -- found version 7.3.0\n'}
+[5.051303] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-magnetometer\n'}
+[5.052178] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [navsat]\n'}
+[5.054604] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-navsat -- found version 7.3.0\n'}
+[5.055023] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-navsat\n'}
+[5.055565] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rendering]\n'}
+[5.057647] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-rendering -- found version 7.3.0\n'}
+[5.058064] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rendering\n'}
+[5.058657] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [lidar]\n'}
+[5.060600] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-lidar -- found version 7.3.0\n'}
+[5.061032] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-lidar\n'}
+[5.061367] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.062056] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [gpu_lidar]\n'}
+[5.064110] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-gpu_lidar -- found version 7.3.0\n'}
+[5.064395] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-gpu_lidar\n'}
+[5.064836] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.065520] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [camera]\n'}
+[5.067591] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-camera -- found version 7.3.0\n'}
+[5.067931] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-camera\n'}
+[5.068214] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.068940] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [boundingbox_camera]\n'}
+[5.070837] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-boundingbox_camera -- found version 7.3.0\n'}
+[5.071335] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-boundingbox_camera\n'}
+[5.071913] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [segmentation_camera]\n'}
+[5.074056] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-segmentation_camera -- found version 7.3.0\n'}
+[5.074529] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-segmentation_camera\n'}
+[5.075092] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [depth_camera]\n'}
+[5.077074] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-depth_camera -- found version 7.3.0\n'}
+[5.077468] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-depth_camera\n'}
+[5.077807] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.078426] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rgbd_camera]\n'}
+[5.080357] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-rgbd_camera -- found version 7.3.0\n'}
+[5.080678] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rgbd_camera\n'}
+[5.081175] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.081737] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [thermal_camera]\n'}
+[5.083723] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-thermal_camera -- found version 7.3.0\n'}
+[5.084119] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-thermal_camera\n'}
+[5.084353] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.0\n'}
+[5.085123] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [wide_angle_camera]\n'}
+[5.087109] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-wide_angle_camera -- found version 7.3.0\n'}
+[5.087490] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-wide_angle_camera\n'}
+[5.088521] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.2\n'}
+[5.088934] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.4.0\n'}
+[5.089318] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[5.110287] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sim7 - found\n'}
+[5.110427] (gz-waves1) StdoutLine: {'line': b'\n'}
+[5.110984] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.6.0\n'}
+[5.111079] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 - found\n'}
+[5.111140] (gz-waves1) StdoutLine: {'line': b'\n'}
+[5.111329] (gz-waves1) StdoutLine: {'line': b'-- Compiling against Gazebo Garden\n'}
+[5.117289] (-) TimerEvent: {}
+[5.179654] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-RTShaderSystem >= 1.9'\n"}
+[5.200226] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-RTShaderSystem , version 1.9.0\n'}
+[5.217445] (-) TimerEvent: {}
+[5.268402] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-Terrain >= 1.9'\n"}
+[5.289209] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-Terrain , version 1.9.0\n'}
+[5.317603] (-) TimerEvent: {}
+[5.358618] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-Overlay >= 1.9'\n"}
+[5.379264] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-Overlay , version 1.9.0\n'}
+[5.417775] (-) TimerEvent: {}
+[5.445071] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-Paging >= 1.9'\n"}
+[5.467513] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-Paging , version 1.9.0\n'}
+[5.517961] (-) TimerEvent: {}
+[5.531230] (gz-waves1) StdoutLine: {'line': b'-- Looking for GzOGRE - found\n'}
+[5.531495] (gz-waves1) StdoutLine: {'line': b'\n'}
+[5.553490] (gz-waves1) StdoutLine: {'line': b'-- Looking for OGRE using the name: OGRE2\n'}
+[5.618131] (-) TimerEvent: {}
+[5.650639] (gz-waves1) StdoutLine: {'line': b'--   + component HlmsPbs: found\n'}
+[5.657328] (gz-waves1) StdoutLine: {'line': b'--   + component HlmsUnlit: found\n'}
+[5.663079] (gz-waves1) StdoutLine: {'line': b'--   + component Overlay: found\n'}
+[5.668623] (gz-waves1) StdoutLine: {'line': b'--   + component PlanarReflections: found\n'}
+[5.670607] (gz-waves1) StdoutLine: {'line': b'-- Looking for GzOGRE2 - found\n'}
+[5.670811] (gz-waves1) StdoutLine: {'line': b'\n'}
+[5.677980] (gz-waves1) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake:92 (message):\n'}
+[5.678214] (gz-waves1) StderrLine: {'line': b'  CGAL_DATA_DIR cannot be deduced, set the variable CGAL_DATA_DIR to set the\n'}
+[5.678342] (gz-waves1) StderrLine: {'line': b'  default value of CGAL::data_file_path()\n'}
+[5.678451] (gz-waves1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.678557] (gz-waves1) StderrLine: {'line': b'  CMakeLists.txt:168 (find_package)\n'}
+[5.678658] (gz-waves1) StderrLine: {'line': b'\n'}
+[5.678763] (gz-waves1) StderrLine: {'line': b'\x1b[0m\n'}
+[5.683091] (gz-waves1) StdoutLine: {'line': b'-- Using header-only CGAL\n'}
+[5.686384] (gz-waves1) StdoutLine: {'line': b'-- Targetting Unix Makefiles\n'}
+[5.686595] (gz-waves1) StdoutLine: {'line': b'-- Using /usr/lib/ccache/c++ compiler.\n'}
+[5.691941] (gz-waves1) StdoutLine: {'line': b'-- Found GMP: /usr/lib/x86_64-linux-gnu/libgmp.so  \n'}
+[5.694964] (gz-waves1) StdoutLine: {'line': b'-- Found MPFR: /usr/lib/x86_64-linux-gnu/libmpfr.so  \n'}
+[5.704534] (gz-waves1) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.48")  \n'}
+[5.705167] (gz-waves1) StdoutLine: {'line': b'-- Boost include dirs: /usr/include\n'}
+[5.705310] (gz-waves1) StdoutLine: {'line': b'-- Boost libraries:    \n'}
+[5.705872] (gz-waves1) StdoutLine: {'line': b'-- Using gcc version 4 or later. Adding -frounding-math\n'}
+[5.708545] (gz-waves1) StdoutLine: {'line': b'-- Build type: \n'}
+[5.708654] (gz-waves1) StdoutLine: {'line': b"-- USING CXXFLAGS = ' '\n"}
+[5.708718] (gz-waves1) StdoutLine: {'line': b"-- USING EXEFLAGS = ' '\n"}
+[5.708969] (gz-waves1) StdoutLine: {'line': b'-- Requested component: Core\n'}
+[5.718259] (-) TimerEvent: {}
+[5.818589] (-) TimerEvent: {}
+[5.919107] (-) TimerEvent: {}
+[6.019548] (-) TimerEvent: {}
+[6.119968] (-) TimerEvent: {}
+[6.220482] (-) TimerEvent: {}
+[6.320949] (-) TimerEvent: {}
+[6.421353] (-) TimerEvent: {}
+[6.521803] (-) TimerEvent: {}
+[6.622235] (-) TimerEvent: {}
+[6.722770] (-) TimerEvent: {}
+[6.823199] (-) TimerEvent: {}
+[6.923641] (-) TimerEvent: {}
+[7.024078] (-) TimerEvent: {}
+[7.124529] (-) TimerEvent: {}
+[7.224937] (-) TimerEvent: {}
+[7.325353] (-) TimerEvent: {}
+[7.425838] (-) TimerEvent: {}
+[7.526260] (-) TimerEvent: {}
+[7.626650] (-) TimerEvent: {}
+[7.714481] (gz-waves1) StdoutLine: {'line': b'-- \n'}
+[7.714767] (gz-waves1) StdoutLine: {'line': b'-- Searching for host SSE information\n'}
+[7.726810] (-) TimerEvent: {}
+[7.778496] (gz-waves1) StdoutLine: {'line': b'-- SSE2 found\n'}
+[7.778767] (gz-waves1) StdoutLine: {'line': b'-- SSE3 found\n'}
+[7.778891] (gz-waves1) StdoutLine: {'line': b'-- SSE4.1 found\n'}
+[7.779003] (gz-waves1) StdoutLine: {'line': b'-- SSE4.2 found\n'}
+[7.820358] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-dynamic-geometry-system\n'}
+[7.824802] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[7.826903] (-) TimerEvent: {}
+[7.927285] (-) TimerEvent: {}
+[7.980507] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[7.981790] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[8.027462] (-) TimerEvent: {}
+[8.127909] (-) TimerEvent: {}
+[8.135015] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[8.135603] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[8.228056] (-) TimerEvent: {}
+[8.297614] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[8.307168] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-hydrodynamics-system\n'}
+[8.315756] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-rendering\n'}
+[8.322967] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-rendering-ogre2\n'}
+[8.328190] (-) TimerEvent: {}
+[8.330026] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-waves-visual-system\n'}
+[8.336815] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-waves-model-system\n'}
+[8.344165] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1\n'}
+[8.351317] (gz-waves1) StdoutLine: {'line': b'-- Testing is disabled -- skipping UNIT tests\n'}
+[8.428377] (-) TimerEvent: {}
+[8.528732] (-) TimerEvent: {}
+[8.629094] (-) TimerEvent: {}
+[8.729374] (-) TimerEvent: {}
+[8.829663] (-) TimerEvent: {}
+[8.854687] (gz-waves1) StdoutLine: {'line': b'-- Adding codecheck target\n'}
+[8.854902] (gz-waves1) StdoutLine: {'line': b'-- Build configuration successful\n'}
+[8.855107] (gz-waves1) StdoutLine: {'line': b'-- Build type: RelWithDebInfo\n'}
+[8.855206] (gz-waves1) StdoutLine: {'line': b'-- Install prefix: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1\n'}
+[8.856251] (gz-waves1) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.929817] (-) TimerEvent: {}
+[8.948018] (gz-waves1) StdoutLine: {'line': b'-- Generating done\n'}
+[8.950947] (gz-waves1) StdoutLine: {'line': b'-- Build files have been written to: /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1\n'}
+[8.969439] (gz-waves1) CommandEnded: {'returncode': 0}
+[8.971084] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'build'}
+[8.971748] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1', '--', '-j8', '-l8'], 'cwd': '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aceti/ASV_WORK/gz_ws/src/ardupilot_gazebo/build::/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/aceti/ardupilot_gazebo/models:/home/aceti/ASV_WORK/gz_ws/src/ardupilot_gazebo/worlds::/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/aceti/ASV_WORK/SITL_Models/Gazebo/models:/home/aceti/ASV_WORK/SITL_Models/Gazebo/worlds'), ('USER', 'aceti'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aceti'), ('OLDPWD', '/home/aceti/ASV_WORK/b'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aceti'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aceti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aceti/gems/bin:/usr/lib/ccache:/home/aceti/ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/aceti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aceti-Lenovo-V15-IIL:@/tmp/.ICE-unix/2267,unix/aceti-Lenovo-V15-IIL:/tmp/.ICE-unix/2267'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03505fcd_7707_454b_bea9_3ac09256b69f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0E3CU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/aceti/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[9.029974] (-) TimerEvent: {}
+[9.040207] (gz-waves1) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Algorithm.cc.o\x1b[0m\n'}
+[9.040625] (gz-waves1) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Convert.cc.o\x1b[0m\n'}
+[9.041506] (gz-waves1) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Geometry.cc.o\x1b[0m\n'}
+[9.041908] (gz-waves1) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Grid.cc.o\x1b[0m\n'}
+[9.042178] (gz-waves1) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/MeshTools.cc.o\x1b[0m\n'}
+[9.042392] (gz-waves1) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/OceanTile.cc.o\x1b[0m\n'}
+[9.042973] (gz-waves1) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/PhysicalConstants.cc.o\x1b[0m\n'}
+[9.043264] (gz-waves1) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Physics.cc.o\x1b[0m\n'}
+[9.108544] (gz-waves1) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/SubMeshWithTangents.cc.o\x1b[0m\n'}
+[9.130076] (-) TimerEvent: {}
+[9.230408] (-) TimerEvent: {}
+[9.330726] (-) TimerEvent: {}
+[9.431038] (-) TimerEvent: {}
+[9.531737] (-) TimerEvent: {}
+[9.552346] (gz-waves1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/TriangulatedGrid.cc.o\x1b[0m\n'}
+[9.631729] (-) TimerEvent: {}
+[9.741686] (-) TimerEvent: {}
+[9.842025] (-) TimerEvent: {}
+[9.942375] (-) TimerEvent: {}
+[10.042729] (-) TimerEvent: {}
+[10.143130] (-) TimerEvent: {}
+[10.243851] (-) TimerEvent: {}
+[10.345835] (-) TimerEvent: {}
+[10.446296] (-) TimerEvent: {}
+[10.546679] (-) TimerEvent: {}
+[10.647159] (-) TimerEvent: {}
+[10.747791] (-) TimerEvent: {}
+[10.848667] (-) TimerEvent: {}
+[10.949184] (-) TimerEvent: {}
+[11.049716] (-) TimerEvent: {}
+[11.150468] (-) TimerEvent: {}
+[11.251058] (-) TimerEvent: {}
+[11.351536] (-) TimerEvent: {}
+[11.451926] (-) TimerEvent: {}
+[11.552405] (-) TimerEvent: {}
+[11.630108] (gz-waves1) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Utilities.cc.o\x1b[0m\n'}
+[11.652570] (-) TimerEvent: {}
+[11.753103] (-) TimerEvent: {}
+[11.853701] (-) TimerEvent: {}
+[11.954105] (-) TimerEvent: {}
+[12.054603] (-) TimerEvent: {}
+[12.155092] (-) TimerEvent: {}
+[12.255471] (-) TimerEvent: {}
+[12.356010] (-) TimerEvent: {}
+[12.456958] (-) TimerEvent: {}
+[12.557316] (-) TimerEvent: {}
+[12.657641] (-) TimerEvent: {}
+[12.758013] (-) TimerEvent: {}
+[12.858534] (-) TimerEvent: {}
+[12.958985] (-) TimerEvent: {}
+[13.059394] (-) TimerEvent: {}
+[13.160104] (-) TimerEvent: {}
+[13.262103] (-) TimerEvent: {}
+[13.362798] (-) TimerEvent: {}
+[13.463377] (-) TimerEvent: {}
+[13.563813] (-) TimerEvent: {}
+[13.664243] (-) TimerEvent: {}
+[13.764721] (-) TimerEvent: {}
+[13.865427] (-) TimerEvent: {}
+[13.966048] (-) TimerEvent: {}
+[14.066487] (-) TimerEvent: {}
+[14.167055] (-) TimerEvent: {}
+[14.267710] (-) TimerEvent: {}
+[14.368205] (-) TimerEvent: {}
+[14.470167] (-) TimerEvent: {}
+[14.570616] (-) TimerEvent: {}
+[14.671102] (-) TimerEvent: {}
+[14.771644] (-) TimerEvent: {}
+[14.872381] (-) TimerEvent: {}
+[14.973053] (-) TimerEvent: {}
+[15.073450] (-) TimerEvent: {}
+[15.174037] (-) TimerEvent: {}
+[15.274528] (-) TimerEvent: {}
+[15.375155] (-) TimerEvent: {}
+[15.475639] (-) TimerEvent: {}
+[15.576155] (-) TimerEvent: {}
+[15.676646] (-) TimerEvent: {}
+[15.777128] (-) TimerEvent: {}
+[15.877644] (-) TimerEvent: {}
+[15.978213] (-) TimerEvent: {}
+[16.078706] (-) TimerEvent: {}
+[16.179153] (-) TimerEvent: {}
+[16.279611] (-) TimerEvent: {}
+[16.380113] (-) TimerEvent: {}
+[16.480764] (-) TimerEvent: {}
+[16.581593] (-) TimerEvent: {}
+[16.682245] (-) TimerEvent: {}
+[16.782871] (-) TimerEvent: {}
+[16.883555] (-) TimerEvent: {}
+[16.984064] (-) TimerEvent: {}
+[17.084671] (-) TimerEvent: {}
+[17.185278] (-) TimerEvent: {}
+[17.285982] (-) TimerEvent: {}
+[17.386526] (-) TimerEvent: {}
+[17.487256] (-) TimerEvent: {}
+[17.587802] (-) TimerEvent: {}
+[17.688286] (-) TimerEvent: {}
+[17.788872] (-) TimerEvent: {}
+[17.889410] (-) TimerEvent: {}
+[17.989857] (-) TimerEvent: {}
+[18.090312] (-) TimerEvent: {}
+[18.190727] (-) TimerEvent: {}
+[18.291094] (-) TimerEvent: {}
+[18.391512] (-) TimerEvent: {}
+[18.491907] (-) TimerEvent: {}
+[18.592346] (-) TimerEvent: {}
+[18.692733] (-) TimerEvent: {}
+[18.793088] (-) TimerEvent: {}
+[18.893460] (-) TimerEvent: {}
+[18.993878] (-) TimerEvent: {}
+[19.094296] (-) TimerEvent: {}
+[19.194689] (-) TimerEvent: {}
+[19.295090] (-) TimerEvent: {}
+[19.395511] (-) TimerEvent: {}
+[19.495888] (-) TimerEvent: {}
+[19.596277] (-) TimerEvent: {}
+[19.696670] (-) TimerEvent: {}
+[19.797061] (-) TimerEvent: {}
+[19.897481] (-) TimerEvent: {}
+[19.997895] (-) TimerEvent: {}
+[20.098362] (-) TimerEvent: {}
+[20.198792] (-) TimerEvent: {}
+[20.299214] (-) TimerEvent: {}
+[20.399690] (-) TimerEvent: {}
+[20.500125] (-) TimerEvent: {}
+[20.600584] (-) TimerEvent: {}
+[20.700974] (-) TimerEvent: {}
+[20.801542] (-) TimerEvent: {}
+[20.902236] (-) TimerEvent: {}
+[21.002637] (-) TimerEvent: {}
+[21.103061] (-) TimerEvent: {}
+[21.203460] (-) TimerEvent: {}
+[21.303931] (-) TimerEvent: {}
+[21.404369] (-) TimerEvent: {}
+[21.504789] (-) TimerEvent: {}
+[21.605214] (-) TimerEvent: {}
+[21.705687] (-) TimerEvent: {}
+[21.806120] (-) TimerEvent: {}
+[21.906533] (-) TimerEvent: {}
+[22.007093] (-) TimerEvent: {}
+[22.107512] (-) TimerEvent: {}
+[22.207954] (-) TimerEvent: {}
+[22.308747] (-) TimerEvent: {}
+[22.409152] (-) TimerEvent: {}
+[22.509518] (-) TimerEvent: {}
+[22.609920] (-) TimerEvent: {}
+[22.710304] (-) TimerEvent: {}
+[22.810747] (-) TimerEvent: {}
+[22.911144] (-) TimerEvent: {}
+[23.011726] (-) TimerEvent: {}
+[23.112301] (-) TimerEvent: {}
+[23.212883] (-) TimerEvent: {}
+[23.313422] (-) TimerEvent: {}
+[23.413942] (-) TimerEvent: {}
+[23.514479] (-) TimerEvent: {}
+[23.615004] (-) TimerEvent: {}
+[23.715477] (-) TimerEvent: {}
+[23.765320] (gz-waves1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Wavefield.cc.o\x1b[0m\n'}
+[23.816002] (-) TimerEvent: {}
+[23.918121] (-) TimerEvent: {}
+[24.018553] (-) TimerEvent: {}
+[24.119029] (-) TimerEvent: {}
+[24.219445] (-) TimerEvent: {}
+[24.320014] (-) TimerEvent: {}
+[24.420637] (-) TimerEvent: {}
+[24.521130] (-) TimerEvent: {}
+[24.621585] (-) TimerEvent: {}
+[24.722042] (-) TimerEvent: {}
+[24.822477] (-) TimerEvent: {}
+[24.922884] (-) TimerEvent: {}
+[25.023261] (-) TimerEvent: {}
+[25.123758] (-) TimerEvent: {}
+[25.224217] (-) TimerEvent: {}
+[25.324631] (-) TimerEvent: {}
+[25.425050] (-) TimerEvent: {}
+[25.525572] (-) TimerEvent: {}
+[25.626029] (-) TimerEvent: {}
+[25.726428] (-) TimerEvent: {}
+[25.826790] (-) TimerEvent: {}
+[25.927203] (-) TimerEvent: {}
+[26.027628] (-) TimerEvent: {}
+[26.128063] (-) TimerEvent: {}
+[26.228475] (-) TimerEvent: {}
+[26.329252] (-) TimerEvent: {}
+[26.431192] (-) TimerEvent: {}
+[26.531596] (-) TimerEvent: {}
+[26.632435] (-) TimerEvent: {}
+[26.736668] (-) TimerEvent: {}
+[26.837154] (-) TimerEvent: {}
+[26.939101] (-) TimerEvent: {}
+[27.041110] (-) TimerEvent: {}
+[27.079607] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[27.080016] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28\x1b[m\x1b[K,\n'}
+[27.080283] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/MeshTools.cc:16\x1b[m\x1b[K:\n'}
+[27.080528] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.080764] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[27.080984] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[27.109481] (gz-waves1) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WavefieldSampler.cc.o\x1b[0m\n'}
+[27.141237] (-) TimerEvent: {}
+[27.241653] (-) TimerEvent: {}
+[27.342013] (-) TimerEvent: {}
+[27.442385] (-) TimerEvent: {}
+[27.542776] (-) TimerEvent: {}
+[27.643233] (-) TimerEvent: {}
+[27.743637] (-) TimerEvent: {}
+[27.844062] (-) TimerEvent: {}
+[27.944500] (-) TimerEvent: {}
+[28.045288] (-) TimerEvent: {}
+[28.147142] (-) TimerEvent: {}
+[28.247567] (-) TimerEvent: {}
+[28.347995] (-) TimerEvent: {}
+[28.448486] (-) TimerEvent: {}
+[28.548980] (-) TimerEvent: {}
+[28.655609] (-) TimerEvent: {}
+[28.756418] (-) TimerEvent: {}
+[28.856957] (-) TimerEvent: {}
+[28.957410] (-) TimerEvent: {}
+[29.007872] (gz-waves1) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveParameters.cc.o\x1b[0m\n'}
+[29.057547] (-) TimerEvent: {}
+[29.158087] (-) TimerEvent: {}
+[29.258624] (-) TimerEvent: {}
+[29.359118] (-) TimerEvent: {}
+[29.459553] (-) TimerEvent: {}
+[29.560017] (-) TimerEvent: {}
+[29.660435] (-) TimerEvent: {}
+[29.760837] (-) TimerEvent: {}
+[29.861241] (-) TimerEvent: {}
+[29.962076] (-) TimerEvent: {}
+[30.062769] (-) TimerEvent: {}
+[30.163178] (-) TimerEvent: {}
+[30.263607] (-) TimerEvent: {}
+[30.364073] (-) TimerEvent: {}
+[30.463188] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[30.463607] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Grid.cc:28\x1b[m\x1b[K:\n'}
+[30.463841] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.464038] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[30.464156] (-) TimerEvent: {}
+[30.464485] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[30.490353] (gz-waves1) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSimulation.cc.o\x1b[0m\n'}
+[30.564793] (-) TimerEvent: {}
+[30.667167] (-) TimerEvent: {}
+[30.769233] (-) TimerEvent: {}
+[30.869654] (-) TimerEvent: {}
+[30.970031] (-) TimerEvent: {}
+[31.070401] (-) TimerEvent: {}
+[31.170833] (-) TimerEvent: {}
+[31.271233] (-) TimerEvent: {}
+[31.371679] (-) TimerEvent: {}
+[31.472072] (-) TimerEvent: {}
+[31.572524] (-) TimerEvent: {}
+[31.673001] (-) TimerEvent: {}
+[31.773425] (-) TimerEvent: {}
+[31.873830] (-) TimerEvent: {}
+[31.974230] (-) TimerEvent: {}
+[32.074625] (-) TimerEvent: {}
+[32.175044] (-) TimerEvent: {}
+[32.275492] (-) TimerEvent: {}
+[32.375989] (-) TimerEvent: {}
+[32.476502] (-) TimerEvent: {}
+[32.577339] (-) TimerEvent: {}
+[32.679406] (-) TimerEvent: {}
+[32.779818] (-) TimerEvent: {}
+[32.880186] (-) TimerEvent: {}
+[32.980591] (-) TimerEvent: {}
+[33.081032] (-) TimerEvent: {}
+[33.181496] (-) TimerEvent: {}
+[33.251501] (gz-waves1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomFFTWaveSimulation.cc.o\x1b[0m\n'}
+[33.281619] (-) TimerEvent: {}
+[33.382398] (-) TimerEvent: {}
+[33.484320] (-) TimerEvent: {}
+[33.584763] (-) TimerEvent: {}
+[33.685154] (-) TimerEvent: {}
+[33.785538] (-) TimerEvent: {}
+[33.885965] (-) TimerEvent: {}
+[33.986408] (-) TimerEvent: {}
+[34.086804] (-) TimerEvent: {}
+[34.187266] (-) TimerEvent: {}
+[34.287795] (-) TimerEvent: {}
+[34.388259] (-) TimerEvent: {}
+[34.488685] (-) TimerEvent: {}
+[34.589119] (-) TimerEvent: {}
+[34.689552] (-) TimerEvent: {}
+[34.789975] (-) TimerEvent: {}
+[34.890406] (-) TimerEvent: {}
+[34.990795] (-) TimerEvent: {}
+[35.091245] (-) TimerEvent: {}
+[35.191660] (-) TimerEvent: {}
+[35.292056] (-) TimerEvent: {}
+[35.392487] (-) TimerEvent: {}
+[35.492905] (-) TimerEvent: {}
+[35.593335] (-) TimerEvent: {}
+[35.693732] (-) TimerEvent: {}
+[35.794171] (-) TimerEvent: {}
+[35.894665] (-) TimerEvent: {}
+[35.995208] (-) TimerEvent: {}
+[36.097913] (-) TimerEvent: {}
+[36.198353] (-) TimerEvent: {}
+[36.298777] (-) TimerEvent: {}
+[36.399200] (-) TimerEvent: {}
+[36.499651] (-) TimerEvent: {}
+[36.600080] (-) TimerEvent: {}
+[36.700507] (-) TimerEvent: {}
+[36.800923] (-) TimerEvent: {}
+[36.901737] (-) TimerEvent: {}
+[37.003658] (-) TimerEvent: {}
+[37.104071] (-) TimerEvent: {}
+[37.204544] (-) TimerEvent: {}
+[37.304981] (-) TimerEvent: {}
+[37.405487] (-) TimerEvent: {}
+[37.509682] (-) TimerEvent: {}
+[37.610138] (-) TimerEvent: {}
+[37.710593] (-) TimerEvent: {}
+[37.811015] (-) TimerEvent: {}
+[37.911485] (-) TimerEvent: {}
+[38.011928] (-) TimerEvent: {}
+[38.112290] (-) TimerEvent: {}
+[38.212666] (-) TimerEvent: {}
+[38.313042] (-) TimerEvent: {}
+[38.413489] (-) TimerEvent: {}
+[38.513872] (-) TimerEvent: {}
+[38.614663] (-) TimerEvent: {}
+[38.717074] (-) TimerEvent: {}
+[38.823061] (-) TimerEvent: {}
+[38.923542] (-) TimerEvent: {}
+[39.024318] (-) TimerEvent: {}
+[39.126151] (-) TimerEvent: {}
+[39.226531] (-) TimerEvent: {}
+[39.326899] (-) TimerEvent: {}
+[39.427321] (-) TimerEvent: {}
+[39.527847] (-) TimerEvent: {}
+[39.534422] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[39.534764] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[39.534977] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/OceanTile.cc:16\x1b[m\x1b[K:\n'}
+[39.535160] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.535353] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[39.535543] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.593918] (gz-waves1) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomFFTWaveSimulationRef.cc.o\x1b[0m\n'}
+[39.627959] (-) TimerEvent: {}
+[39.728343] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[39.728600] (-) TimerEvent: {}
+[39.728992] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Physics.cc:31\x1b[m\x1b[K:\n'}
+[39.729254] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.729424] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[39.729600] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.810958] (gz-waves1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomWaveSimulation.cc.o\x1b[0m\n'}
+[39.828714] (-) TimerEvent: {}
+[39.929204] (-) TimerEvent: {}
+[40.029668] (-) TimerEvent: {}
+[40.130109] (-) TimerEvent: {}
+[40.230908] (-) TimerEvent: {}
+[40.333867] (-) TimerEvent: {}
+[40.436789] (-) TimerEvent: {}
+[40.537229] (-) TimerEvent: {}
+[40.637624] (-) TimerEvent: {}
+[40.738210] (-) TimerEvent: {}
+[40.838667] (-) TimerEvent: {}
+[40.941488] (-) TimerEvent: {}
+[41.041973] (-) TimerEvent: {}
+[41.142538] (-) TimerEvent: {}
+[41.242985] (-) TimerEvent: {}
+[41.343380] (-) TimerEvent: {}
+[41.443786] (-) TimerEvent: {}
+[41.544200] (-) TimerEvent: {}
+[41.644647] (-) TimerEvent: {}
+[41.745538] (-) TimerEvent: {}
+[41.847764] (-) TimerEvent: {}
+[41.948239] (-) TimerEvent: {}
+[42.018830] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[42.019216] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Utilities.cc:22\x1b[m\x1b[K:\n'}
+[42.019471] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.019733] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[42.019937] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[42.048815] (-) TimerEvent: {}
+[42.068038] (gz-waves1) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRegularWaveSimulation.cc.o\x1b[0m\n'}
+[42.148797] (-) TimerEvent: {}
+[42.249179] (-) TimerEvent: {}
+[42.349606] (-) TimerEvent: {}
+[42.450080] (-) TimerEvent: {}
+[42.550549] (-) TimerEvent: {}
+[42.651033] (-) TimerEvent: {}
+[42.751460] (-) TimerEvent: {}
+[42.851941] (-) TimerEvent: {}
+[42.952492] (-) TimerEvent: {}
+[43.053052] (-) TimerEvent: {}
+[43.153959] (-) TimerEvent: {}
+[43.258410] (-) TimerEvent: {}
+[43.358925] (-) TimerEvent: {}
+[43.449682] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[43.450115] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomFFTWaveSimulation.cc:28\x1b[m\x1b[K:\n'}
+[43.450362] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[43.450571] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[43.450800] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[43.459439] (-) TimerEvent: {}
+[43.481961] (gz-waves1) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/TrochoidIrregularWaveSimulation.cc.o\x1b[0m\n'}
+[43.559430] (-) TimerEvent: {}
+[43.659854] (-) TimerEvent: {}
+[43.760214] (-) TimerEvent: {}
+[43.860633] (-) TimerEvent: {}
+[43.961090] (-) TimerEvent: {}
+[44.061462] (-) TimerEvent: {}
+[44.161863] (-) TimerEvent: {}
+[44.262593] (-) TimerEvent: {}
+[44.362969] (-) TimerEvent: {}
+[44.463394] (-) TimerEvent: {}
+[44.563859] (-) TimerEvent: {}
+[44.664313] (-) TimerEvent: {}
+[44.764762] (-) TimerEvent: {}
+[44.865278] (-) TimerEvent: {}
+[44.965769] (-) TimerEvent: {}
+[45.066306] (-) TimerEvent: {}
+[45.166860] (-) TimerEvent: {}
+[45.267362] (-) TimerEvent: {}
+[45.367941] (-) TimerEvent: {}
+[45.468524] (-) TimerEvent: {}
+[45.568935] (-) TimerEvent: {}
+[45.643061] (gz-waves1) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSpectrum.cc.o\x1b[0m\n'}
+[45.669069] (-) TimerEvent: {}
+[45.769923] (-) TimerEvent: {}
+[45.872058] (-) TimerEvent: {}
+[45.936945] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[45.937326] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:24\x1b[m\x1b[K:\n'}
+[45.937559] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[45.937768] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[45.940785] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[45.941261] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gz::waves::LinearRandomWaveSimulation::SetSteepness(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[45.941590] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:494:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[45.941881] (gz-waves1) StderrLine: {'line': b'  494 | void LinearRandomWaveSimulation::SetSteepness(\x1b[01;35m\x1b[Kdouble value\x1b[m\x1b[K)\n'}
+[45.942138] (gz-waves1) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[45.972161] (-) TimerEvent: {}
+[45.980809] (gz-waves1) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSpreadingFunction.cc.o\x1b[0m\n'}
+[46.072369] (-) TimerEvent: {}
+[46.173230] (-) TimerEvent: {}
+[46.275278] (-) TimerEvent: {}
+[46.375779] (-) TimerEvent: {}
+[46.476183] (-) TimerEvent: {}
+[46.576595] (-) TimerEvent: {}
+[46.677507] (-) TimerEvent: {}
+[46.779540] (-) TimerEvent: {}
+[46.879995] (-) TimerEvent: {}
+[46.980474] (-) TimerEvent: {}
+[47.080951] (-) TimerEvent: {}
+[47.181388] (-) TimerEvent: {}
+[47.281790] (-) TimerEvent: {}
+[47.382157] (-) TimerEvent: {}
+[47.482530] (-) TimerEvent: {}
+[47.582917] (-) TimerEvent: {}
+[47.599757] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[47.600107] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomFFTWaveSimulationRef.cc:40\x1b[m\x1b[K:\n'}
+[47.600306] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[47.600492] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[47.600697] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[47.683041] (-) TimerEvent: {}
+[47.783407] (-) TimerEvent: {}
+[47.883800] (-) TimerEvent: {}
+[47.984243] (-) TimerEvent: {}
+[48.084662] (-) TimerEvent: {}
+[48.185067] (-) TimerEvent: {}
+[48.285526] (-) TimerEvent: {}
+[48.385901] (-) TimerEvent: {}
+[48.486321] (-) TimerEvent: {}
+[48.586782] (-) TimerEvent: {}
+[48.687174] (-) TimerEvent: {}
+[48.787583] (-) TimerEvent: {}
+[48.796823] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::Pressure(double, double, double, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.797151] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.797309] (gz-waves1) StderrLine: {'line': b'  187 |     \x1b[01;35m\x1b[Kdouble x\x1b[m\x1b[K, double y, double z,\n'}
+[48.797412] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[48.797510] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.797617] (gz-waves1) StderrLine: {'line': b'  187 |     double x, \x1b[01;35m\x1b[Kdouble y\x1b[m\x1b[K, double z,\n'}
+[48.797719] (gz-waves1) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[48.797829] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.797969] (gz-waves1) StderrLine: {'line': b'  187 |     double x, double y, \x1b[01;35m\x1b[Kdouble z\x1b[m\x1b[K,\n'}
+[48.798075] (gz-waves1) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[48.798211] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:188:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpressure\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.798338] (gz-waves1) StderrLine: {'line': b'  188 |     \x1b[01;35m\x1b[Kdouble &pressure\x1b[m\x1b[K)\n'}
+[48.798443] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[48.798550] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::Pressure(const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, Eigen::Ref<Eigen::Array<double, -1, 1> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.798672] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:196:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.798778] (gz-waves1) StderrLine: {'line': b'  196 |     \x1b[01;35m\x1b[Kconst Eigen::Ref<const Eigen::ArrayXd>& x\x1b[m\x1b[K,\n'}
+[48.798887] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[48.798990] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:197:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.799090] (gz-waves1) StderrLine: {'line': b'  197 |     \x1b[01;35m\x1b[Kconst Eigen::Ref<const Eigen::ArrayXd>& y\x1b[m\x1b[K,\n'}
+[48.799224] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[48.799318] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:198:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.799412] (gz-waves1) StderrLine: {'line': b'  198 |     \x1b[01;35m\x1b[Kconst Eigen::Ref<const Eigen::ArrayXd>& z\x1b[m\x1b[K,\n'}
+[48.799503] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[48.799600] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:199:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpressure\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.799702] (gz-waves1) StderrLine: {'line': b'  199 |     \x1b[01;35m\x1b[KEigen::Ref<Eigen::ArrayXd> pressure\x1b[m\x1b[K)\n'}
+[48.799797] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[48.799883] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::ElevationAt(gz::waves::Index, gz::waves::Index, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.799974] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:377:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.800066] (gz-waves1) StderrLine: {'line': b'  377 |     \x1b[01;35m\x1b[KIndex ix\x1b[m\x1b[K, Index iy,\n'}
+[48.800155] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.800243] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:377:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.800343] (gz-waves1) StderrLine: {'line': b'  377 |     Index ix, \x1b[01;35m\x1b[KIndex iy\x1b[m\x1b[K,\n'}
+[48.800438] (gz-waves1) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.800537] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:378:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kh\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.801379] (gz-waves1) StderrLine: {'line': b'  378 |     \x1b[01;35m\x1b[Kdouble &h\x1b[m\x1b[K)\n'}
+[48.801493] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~^\x1b[m\x1b[K\n'}
+[48.801585] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::DisplacementAt(gz::waves::Index, gz::waves::Index, double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.801690] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:386:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.801782] (gz-waves1) StderrLine: {'line': b'  386 |     \x1b[01;35m\x1b[KIndex ix\x1b[m\x1b[K, Index iy,\n'}
+[48.801879] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.801982] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:386:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.802100] (gz-waves1) StderrLine: {'line': b'  386 |     Index ix, \x1b[01;35m\x1b[KIndex iy\x1b[m\x1b[K,\n'}
+[48.802192] (gz-waves1) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.802294] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:387:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.802392] (gz-waves1) StderrLine: {'line': b'  387 |     \x1b[01;35m\x1b[Kdouble& sx\x1b[m\x1b[K, double& sy)\n'}
+[48.802493] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[48.802622] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:387:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.802731] (gz-waves1) StderrLine: {'line': b'  387 |     double& sx, \x1b[01;35m\x1b[Kdouble& sy\x1b[m\x1b[K)\n'}
+[48.802830] (gz-waves1) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[48.802936] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::PressureAt(gz::waves::Index, gz::waves::Index, gz::waves::Index, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.803045] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.803145] (gz-waves1) StderrLine: {'line': b'  395 |     \x1b[01;35m\x1b[KIndex ix\x1b[m\x1b[K, Index iy, Index iz,\n'}
+[48.803249] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.803341] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.803446] (gz-waves1) StderrLine: {'line': b'  395 |     Index ix, \x1b[01;35m\x1b[KIndex iy\x1b[m\x1b[K, Index iz,\n'}
+[48.803531] (gz-waves1) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.803616] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.803716] (gz-waves1) StderrLine: {'line': b'  395 |     Index ix, Index iy, \x1b[01;35m\x1b[KIndex iz\x1b[m\x1b[K,\n'}
+[48.803805] (gz-waves1) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.803899] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:396:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpressure\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.804002] (gz-waves1) StderrLine: {'line': b'  396 |     \x1b[01;35m\x1b[Kdouble &pressure\x1b[m\x1b[K)\n'}
+[48.804092] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[48.804200] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::PressureAt(gz::waves::Index, Eigen::Ref<Eigen::Array<double, -1, -1> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.804292] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:404:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.804385] (gz-waves1) StderrLine: {'line': b'  404 |     \x1b[01;35m\x1b[KIndex iz\x1b[m\x1b[K,\n'}
+[48.804476] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[48.804572] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:405:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpressure\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.807124] (gz-waves1) StderrLine: {'line': b'  405 |     \x1b[01;35m\x1b[KEigen::Ref<Eigen::ArrayXXd> pressure\x1b[m\x1b[K)\n'}
+[48.807249] (gz-waves1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[48.887706] (-) TimerEvent: {}
+[48.988343] (-) TimerEvent: {}
+[49.088838] (-) TimerEvent: {}
+[49.189267] (-) TimerEvent: {}
+[49.289641] (-) TimerEvent: {}
+[49.390074] (-) TimerEvent: {}
+[49.490776] (-) TimerEvent: {}
+[49.591192] (-) TimerEvent: {}
+[49.691634] (-) TimerEvent: {}
+[49.792018] (-) TimerEvent: {}
+[49.892413] (-) TimerEvent: {}
+[49.992896] (-) TimerEvent: {}
+[50.093248] (-) TimerEvent: {}
+[50.193662] (-) TimerEvent: {}
+[50.294068] (-) TimerEvent: {}
+[50.394450] (-) TimerEvent: {}
+[50.495004] (-) TimerEvent: {}
+[50.595387] (-) TimerEvent: {}
+[50.696124] (-) TimerEvent: {}
+[50.797972] (-) TimerEvent: {}
+[50.898320] (-) TimerEvent: {}
+[50.998667] (-) TimerEvent: {}
+[51.099034] (-) TimerEvent: {}
+[51.199486] (-) TimerEvent: {}
+[51.299805] (-) TimerEvent: {}
+[51.400163] (-) TimerEvent: {}
+[51.500502] (-) TimerEvent: {}
+[51.528313] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[51.528551] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[51.528726] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Wavefield.cc:27\x1b[m\x1b[K:\n'}
+[51.528842] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[51.528984] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[51.529111] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[51.600638] (-) TimerEvent: {}
+[51.700975] (-) TimerEvent: {}
+[51.801315] (-) TimerEvent: {}
+[51.901646] (-) TimerEvent: {}
+[52.001971] (-) TimerEvent: {}
+[52.102291] (-) TimerEvent: {}
+[52.202644] (-) TimerEvent: {}
+[52.302993] (-) TimerEvent: {}
+[52.403418] (-) TimerEvent: {}
+[52.503801] (-) TimerEvent: {}
+[52.520515] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[52.520733] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/WavefieldSampler.cc:25\x1b[m\x1b[K:\n'}
+[52.520830] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[52.520917] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[52.521001] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[52.603955] (-) TimerEvent: {}
+[52.704290] (-) TimerEvent: {}
+[52.706079] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[52.706223] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/WaveParameters.cc:23\x1b[m\x1b[K:\n'}
+[52.706294] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[52.706396] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[52.706491] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[52.804388] (-) TimerEvent: {}
+[52.904710] (-) TimerEvent: {}
+[53.005015] (-) TimerEvent: {}
+[53.105318] (-) TimerEvent: {}
+[53.205667] (-) TimerEvent: {}
+[53.305971] (-) TimerEvent: {}
+[53.406298] (-) TimerEvent: {}
+[53.506608] (-) TimerEvent: {}
+[53.606975] (-) TimerEvent: {}
+[53.707419] (-) TimerEvent: {}
+[53.807776] (-) TimerEvent: {}
+[53.908080] (-) TimerEvent: {}
+[54.008367] (-) TimerEvent: {}
+[54.108692] (-) TimerEvent: {}
+[54.208949] (-) TimerEvent: {}
+[54.309215] (-) TimerEvent: {}
+[54.409493] (-) TimerEvent: {}
+[54.509763] (-) TimerEvent: {}
+[54.610071] (-) TimerEvent: {}
+[54.710338] (-) TimerEvent: {}
+[54.810685] (-) TimerEvent: {}
+[54.911017] (-) TimerEvent: {}
+[55.011335] (-) TimerEvent: {}
+[55.111636] (-) TimerEvent: {}
+[55.211944] (-) TimerEvent: {}
+[55.312234] (-) TimerEvent: {}
+[55.412544] (-) TimerEvent: {}
+[55.512873] (-) TimerEvent: {}
+[55.613189] (-) TimerEvent: {}
+[55.713472] (-) TimerEvent: {}
+[55.813803] (-) TimerEvent: {}
+[55.914081] (-) TimerEvent: {}
+[56.014402] (-) TimerEvent: {}
+[56.114747] (-) TimerEvent: {}
+[56.215084] (-) TimerEvent: {}
+[56.315416] (-) TimerEvent: {}
+[56.415742] (-) TimerEvent: {}
+[56.516067] (-) TimerEvent: {}
+[56.616376] (-) TimerEvent: {}
+[56.716689] (-) TimerEvent: {}
+[56.817016] (-) TimerEvent: {}
+[56.917330] (-) TimerEvent: {}
+[57.017614] (-) TimerEvent: {}
+[57.117878] (-) TimerEvent: {}
+[57.218213] (-) TimerEvent: {}
+[57.318533] (-) TimerEvent: {}
+[57.418860] (-) TimerEvent: {}
+[57.519177] (-) TimerEvent: {}
+[57.619503] (-) TimerEvent: {}
+[57.719805] (-) TimerEvent: {}
+[57.820136] (-) TimerEvent: {}
+[57.920451] (-) TimerEvent: {}
+[58.020742] (-) TimerEvent: {}
+[58.121082] (-) TimerEvent: {}
+[58.221416] (-) TimerEvent: {}
+[58.321689] (-) TimerEvent: {}
+[58.422060] (-) TimerEvent: {}
+[58.522380] (-) TimerEvent: {}
+[58.622677] (-) TimerEvent: {}
+[58.722985] (-) TimerEvent: {}
+[58.776739] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gz::waves::LinearRegularWaveSimulation::SetSteepness(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[58.776889] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation.cc:581:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[58.776947] (gz-waves1) StderrLine: {'line': b'  581 | void LinearRegularWaveSimulation::SetSteepness(\x1b[01;35m\x1b[Kdouble value\x1b[m\x1b[K)\n'}
+[58.776998] (gz-waves1) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[58.802406] (gz-waves1) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library ../lib/libgz-waves1.so\x1b[0m\n'}
+[58.823175] (-) TimerEvent: {}
+[58.923581] (-) TimerEvent: {}
+[59.023899] (-) TimerEvent: {}
+[59.124250] (-) TimerEvent: {}
+[59.224637] (-) TimerEvent: {}
+[59.325021] (-) TimerEvent: {}
+[59.356699] (gz-waves1) StdoutLine: {'line': b'[ 47%] Built target gz-waves1\n'}
+[59.377972] (gz-waves1) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/OceanVisual.cc.o\x1b[0m\n'}
+[59.378180] (gz-waves1) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves1-hydrodynamics-system.dir/Hydrodynamics.cc.o\x1b[0m\n'}
+[59.378256] (gz-waves1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-waves-model-system.dir/WavesModel.cc.o\x1b[0m\n'}
+[59.378315] (gz-waves1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/DisplacementMap.cc.o\x1b[0m\n'}
+[59.378398] (gz-waves1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/systems/dynamic/CMakeFiles/gz-waves1-dynamic-geometry-system.dir/DynamicGeometry.cc.o\x1b[0m\n'}
+[59.378517] (gz-waves1) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/OceanGeometry.cc.o\x1b[0m\n'}
+[59.378699] (gz-waves1) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves1-hydrodynamics-system.dir/Collision.cc.o\x1b[0m\n'}
+[59.378854] (gz-waves1) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/BaseRenderEngineExtension.cc.o\x1b[0m\n'}
+[59.425133] (-) TimerEvent: {}
+[59.525443] (-) TimerEvent: {}
+[59.626188] (-) TimerEvent: {}
+[59.727105] (-) TimerEvent: {}
+[59.827818] (-) TimerEvent: {}
+[59.930229] (-) TimerEvent: {}
+[60.031055] (-) TimerEvent: {}
+[60.132002] (-) TimerEvent: {}
+[60.234123] (-) TimerEvent: {}
+[60.335892] (-) TimerEvent: {}
+[60.400007] (gz-waves1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtension.cc.o\x1b[0m\n'}
+[60.436050] (-) TimerEvent: {}
+[60.536522] (-) TimerEvent: {}
+[60.637570] (-) TimerEvent: {}
+[60.743991] (-) TimerEvent: {}
+[60.846056] (-) TimerEvent: {}
+[60.946384] (-) TimerEvent: {}
+[61.046853] (-) TimerEvent: {}
+[61.147328] (-) TimerEvent: {}
+[61.247885] (-) TimerEvent: {}
+[61.348498] (-) TimerEvent: {}
+[61.450093] (-) TimerEvent: {}
+[61.551134] (-) TimerEvent: {}
+[61.652434] (-) TimerEvent: {}
+[61.755934] (-) TimerEvent: {}
+[61.856351] (-) TimerEvent: {}
+[61.957076] (-) TimerEvent: {}
+[62.059162] (-) TimerEvent: {}
+[62.160910] (-) TimerEvent: {}
+[62.261274] (-) TimerEvent: {}
+[62.361684] (-) TimerEvent: {}
+[62.462076] (-) TimerEvent: {}
+[62.562585] (-) TimerEvent: {}
+[62.663186] (-) TimerEvent: {}
+[62.763977] (-) TimerEvent: {}
+[62.864432] (-) TimerEvent: {}
+[62.964805] (-) TimerEvent: {}
+[63.065227] (-) TimerEvent: {}
+[63.103403] (gz-waves1) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtensionManager.cc.o\x1b[0m\n'}
+[63.165703] (-) TimerEvent: {}
+[63.267833] (-) TimerEvent: {}
+[63.368295] (-) TimerEvent: {}
+[63.468842] (-) TimerEvent: {}
+[63.569326] (-) TimerEvent: {}
+[63.681165] (-) TimerEvent: {}
+[63.781642] (-) TimerEvent: {}
+[63.882144] (-) TimerEvent: {}
+[63.982629] (-) TimerEvent: {}
+[64.083082] (-) TimerEvent: {}
+[64.183497] (-) TimerEvent: {}
+[64.283942] (-) TimerEvent: {}
+[64.384381] (-) TimerEvent: {}
+[64.484820] (-) TimerEvent: {}
+[64.585253] (-) TimerEvent: {}
+[64.685635] (-) TimerEvent: {}
+[64.786094] (-) TimerEvent: {}
+[64.886501] (-) TimerEvent: {}
+[64.987001] (-) TimerEvent: {}
+[65.087387] (-) TimerEvent: {}
+[65.187804] (-) TimerEvent: {}
+[65.288256] (-) TimerEvent: {}
+[65.390769] (-) TimerEvent: {}
+[65.491554] (-) TimerEvent: {}
+[65.592008] (-) TimerEvent: {}
+[65.694454] (-) TimerEvent: {}
+[65.796230] (-) TimerEvent: {}
+[65.896706] (-) TimerEvent: {}
+[65.997166] (-) TimerEvent: {}
+[66.097572] (-) TimerEvent: {}
+[66.198583] (-) TimerEvent: {}
+[66.301302] (-) TimerEvent: {}
+[66.401920] (-) TimerEvent: {}
+[66.502439] (-) TimerEvent: {}
+[66.603068] (-) TimerEvent: {}
+[66.703568] (-) TimerEvent: {}
+[66.804065] (-) TimerEvent: {}
+[66.904628] (-) TimerEvent: {}
+[67.005157] (-) TimerEvent: {}
+[67.105694] (-) TimerEvent: {}
+[67.206246] (-) TimerEvent: {}
+[67.306778] (-) TimerEvent: {}
+[67.407338] (-) TimerEvent: {}
+[67.507871] (-) TimerEvent: {}
+[67.608414] (-) TimerEvent: {}
+[67.709072] (-) TimerEvent: {}
+[67.809716] (-) TimerEvent: {}
+[67.910358] (-) TimerEvent: {}
+[68.010990] (-) TimerEvent: {}
+[68.111636] (-) TimerEvent: {}
+[68.212166] (-) TimerEvent: {}
+[68.312879] (-) TimerEvent: {}
+[68.413459] (-) TimerEvent: {}
+[68.514037] (-) TimerEvent: {}
+[68.614672] (-) TimerEvent: {}
+[68.725678] (-) TimerEvent: {}
+[68.827069] (-) TimerEvent: {}
+[68.927838] (-) TimerEvent: {}
+[69.028452] (-) TimerEvent: {}
+[69.129050] (-) TimerEvent: {}
+[69.229695] (-) TimerEvent: {}
+[69.330349] (-) TimerEvent: {}
+[69.430992] (-) TimerEvent: {}
+[69.531715] (-) TimerEvent: {}
+[69.632291] (-) TimerEvent: {}
+[69.732888] (-) TimerEvent: {}
+[69.833415] (-) TimerEvent: {}
+[69.933932] (-) TimerEvent: {}
+[70.034628] (-) TimerEvent: {}
+[70.135211] (-) TimerEvent: {}
+[70.235738] (-) TimerEvent: {}
+[70.336296] (-) TimerEvent: {}
+[70.436852] (-) TimerEvent: {}
+[70.537244] (-) TimerEvent: {}
+[70.637650] (-) TimerEvent: {}
+[70.738060] (-) TimerEvent: {}
+[70.838497] (-) TimerEvent: {}
+[70.938954] (-) TimerEvent: {}
+[71.039386] (-) TimerEvent: {}
+[71.139742] (-) TimerEvent: {}
+[71.240140] (-) TimerEvent: {}
+[71.340556] (-) TimerEvent: {}
+[71.440953] (-) TimerEvent: {}
+[71.541393] (-) TimerEvent: {}
+[71.641899] (-) TimerEvent: {}
+[71.742290] (-) TimerEvent: {}
+[71.842692] (-) TimerEvent: {}
+[71.943106] (-) TimerEvent: {}
+[72.043523] (-) TimerEvent: {}
+[72.143929] (-) TimerEvent: {}
+[72.244320] (-) TimerEvent: {}
+[72.344819] (-) TimerEvent: {}
+[72.445185] (-) TimerEvent: {}
+[72.545561] (-) TimerEvent: {}
+[72.645972] (-) TimerEvent: {}
+[72.746354] (-) TimerEvent: {}
+[72.846740] (-) TimerEvent: {}
+[72.947165] (-) TimerEvent: {}
+[73.047581] (-) TimerEvent: {}
+[73.147973] (-) TimerEvent: {}
+[73.248814] (-) TimerEvent: {}
+[73.350666] (-) TimerEvent: {}
+[73.451068] (-) TimerEvent: {}
+[73.551434] (-) TimerEvent: {}
+[73.651811] (-) TimerEvent: {}
+[73.789411] (-) TimerEvent: {}
+[73.889797] (-) TimerEvent: {}
+[73.990183] (-) TimerEvent: {}
+[74.090590] (-) TimerEvent: {}
+[74.191438] (-) TimerEvent: {}
+[74.292436] (-) TimerEvent: {}
+[74.392854] (-) TimerEvent: {}
+[74.493257] (-) TimerEvent: {}
+[74.580660] (gz-waves1) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtensionPlugin.cc.o\x1b[0m\n'}
+[74.593438] (-) TimerEvent: {}
+[74.694180] (-) TimerEvent: {}
+[74.794567] (-) TimerEvent: {}
+[74.894929] (-) TimerEvent: {}
+[74.995332] (-) TimerEvent: {}
+[75.095724] (-) TimerEvent: {}
+[75.196112] (-) TimerEvent: {}
+[75.288245] (gz-waves1) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/SceneNodeFactory.cc.o\x1b[0m\n'}
+[75.296278] (-) TimerEvent: {}
+[75.396900] (-) TimerEvent: {}
+[75.497316] (-) TimerEvent: {}
+[75.597724] (-) TimerEvent: {}
+[75.698113] (-) TimerEvent: {}
+[75.798547] (-) TimerEvent: {}
+[75.899083] (-) TimerEvent: {}
+[75.999559] (-) TimerEvent: {}
+[76.100031] (-) TimerEvent: {}
+[76.200441] (-) TimerEvent: {}
+[76.300851] (-) TimerEvent: {}
+[76.401254] (-) TimerEvent: {}
+[76.501675] (-) TimerEvent: {}
+[76.602082] (-) TimerEvent: {}
+[76.702512] (-) TimerEvent: {}
+[76.802989] (-) TimerEvent: {}
+[76.903463] (-) TimerEvent: {}
+[77.003879] (-) TimerEvent: {}
+[77.104336] (-) TimerEvent: {}
+[77.204856] (-) TimerEvent: {}
+[77.305305] (-) TimerEvent: {}
+[77.405754] (-) TimerEvent: {}
+[77.506189] (-) TimerEvent: {}
+[77.606629] (-) TimerEvent: {}
+[77.707096] (-) TimerEvent: {}
+[77.807527] (-) TimerEvent: {}
+[77.907944] (-) TimerEvent: {}
+[78.008338] (-) TimerEvent: {}
+[78.108915] (-) TimerEvent: {}
+[78.209364] (-) TimerEvent: {}
+[78.309816] (-) TimerEvent: {}
+[78.410203] (-) TimerEvent: {}
+[78.510640] (-) TimerEvent: {}
+[78.611126] (-) TimerEvent: {}
+[78.711558] (-) TimerEvent: {}
+[78.811965] (-) TimerEvent: {}
+[78.912408] (-) TimerEvent: {}
+[79.012834] (-) TimerEvent: {}
+[79.113258] (-) TimerEvent: {}
+[79.213662] (-) TimerEvent: {}
+[79.314039] (-) TimerEvent: {}
+[79.414430] (-) TimerEvent: {}
+[79.514825] (-) TimerEvent: {}
+[79.615275] (-) TimerEvent: {}
+[79.715679] (-) TimerEvent: {}
+[79.816086] (-) TimerEvent: {}
+[79.916519] (-) TimerEvent: {}
+[80.016915] (-) TimerEvent: {}
+[80.117370] (-) TimerEvent: {}
+[80.217763] (-) TimerEvent: {}
+[80.324709] (-) TimerEvent: {}
+[80.425073] (-) TimerEvent: {}
+[80.525501] (-) TimerEvent: {}
+[80.625899] (-) TimerEvent: {}
+[80.726334] (-) TimerEvent: {}
+[80.826786] (-) TimerEvent: {}
+[80.927244] (-) TimerEvent: {}
+[81.027632] (-) TimerEvent: {}
+[81.128417] (-) TimerEvent: {}
+[81.230287] (-) TimerEvent: {}
+[81.330769] (-) TimerEvent: {}
+[81.431540] (-) TimerEvent: {}
+[81.533492] (-) TimerEvent: {}
+[81.633885] (-) TimerEvent: {}
+[81.734293] (-) TimerEvent: {}
+[81.834692] (-) TimerEvent: {}
+[81.935102] (-) TimerEvent: {}
+[82.035556] (-) TimerEvent: {}
+[82.135918] (-) TimerEvent: {}
+[82.236287] (-) TimerEvent: {}
+[82.336688] (-) TimerEvent: {}
+[82.437127] (-) TimerEvent: {}
+[82.537533] (-) TimerEvent: {}
+[82.637954] (-) TimerEvent: {}
+[82.738380] (-) TimerEvent: {}
+[82.838881] (-) TimerEvent: {}
+[82.939391] (-) TimerEvent: {}
+[83.039949] (-) TimerEvent: {}
+[83.140379] (-) TimerEvent: {}
+[83.217228] (gz-waves1) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-waves-model-system.so\x1b[0m\n'}
+[83.240522] (-) TimerEvent: {}
+[83.341114] (-) TimerEvent: {}
+[83.441563] (-) TimerEvent: {}
+[83.542084] (-) TimerEvent: {}
+[83.642595] (-) TimerEvent: {}
+[83.743154] (-) TimerEvent: {}
+[83.761065] (gz-waves1) StdoutLine: {'line': b'[ 75%] Built target gz-waves1-waves-model-system\n'}
+[83.843301] (-) TimerEvent: {}
+[83.943717] (-) TimerEvent: {}
+[84.044265] (-) TimerEvent: {}
+[84.144675] (-) TimerEvent: {}
+[84.245115] (-) TimerEvent: {}
+[84.297433] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[84.297719] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[84.297903] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[84.298016] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.cc:16\x1b[m\x1b[K:\n'}
+[84.298118] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[84.298236] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[84.298340] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[84.345362] (-) TimerEvent: {}
+[84.445885] (-) TimerEvent: {}
+[84.546272] (-) TimerEvent: {}
+[84.646661] (-) TimerEvent: {}
+[84.747074] (-) TimerEvent: {}
+[84.847475] (-) TimerEvent: {}
+[84.947861] (-) TimerEvent: {}
+[85.048245] (-) TimerEvent: {}
+[85.148668] (-) TimerEvent: {}
+[85.249205] (-) TimerEvent: {}
+[85.349672] (-) TimerEvent: {}
+[85.412890] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[85.413130] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[85.413252] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[85.413356] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27\x1b[m\x1b[K,\n'}
+[85.413458] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45\x1b[m\x1b[K,\n'}
+[85.413560] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.hh:27\x1b[m\x1b[K,\n'}
+[85.413673] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.cc:16\x1b[m\x1b[K:\n'}
+[85.413773] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[85.413908] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[85.414011] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[85.449804] (-) TimerEvent: {}
+[85.550170] (-) TimerEvent: {}
+[85.650605] (-) TimerEvent: {}
+[85.750957] (-) TimerEvent: {}
+[85.826405] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[85.826608] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[85.826728] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[85.826824] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27\x1b[m\x1b[K,\n'}
+[85.826922] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45\x1b[m\x1b[K,\n'}
+[85.827014] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.cc:16\x1b[m\x1b[K:\n'}
+[85.827106] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[85.827221] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[85.827316] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[85.851081] (-) TimerEvent: {}
+[85.951427] (-) TimerEvent: {}
+[86.051865] (-) TimerEvent: {}
+[86.152202] (-) TimerEvent: {}
+[86.252538] (-) TimerEvent: {}
+[86.352888] (-) TimerEvent: {}
+[86.453240] (-) TimerEvent: {}
+[86.553664] (-) TimerEvent: {}
+[86.654071] (-) TimerEvent: {}
+[86.754425] (-) TimerEvent: {}
+[86.854830] (-) TimerEvent: {}
+[86.955242] (-) TimerEvent: {}
+[87.055595] (-) TimerEvent: {}
+[87.155972] (-) TimerEvent: {}
+[87.256322] (-) TimerEvent: {}
+[87.356689] (-) TimerEvent: {}
+[87.457033] (-) TimerEvent: {}
+[87.557408] (-) TimerEvent: {}
+[87.657801] (-) TimerEvent: {}
+[87.758172] (-) TimerEvent: {}
+[87.858505] (-) TimerEvent: {}
+[87.958840] (-) TimerEvent: {}
+[88.059235] (-) TimerEvent: {}
+[88.159593] (-) TimerEvent: {}
+[88.259945] (-) TimerEvent: {}
+[88.360309] (-) TimerEvent: {}
+[88.460672] (-) TimerEvent: {}
+[88.561033] (-) TimerEvent: {}
+[88.661403] (-) TimerEvent: {}
+[88.761779] (-) TimerEvent: {}
+[88.862166] (-) TimerEvent: {}
+[88.962486] (-) TimerEvent: {}
+[89.062875] (-) TimerEvent: {}
+[89.163804] (-) TimerEvent: {}
+[89.265770] (-) TimerEvent: {}
+[89.366160] (-) TimerEvent: {}
+[89.439050] (gz-waves1) StderrLine: {'line': b"\x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtensionManager.cc:463:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K'GZ_RENDERING_ENGINE_INSTALL_DIR' macro is deprecated, use gz::rendering::getEngineInstallDir() function instead. \n"}
+[89.439258] (gz-waves1) StderrLine: {'line': b'  463 |   systemPath\x1b[01;35m\x1b[Ks.AddPluginPaths({GZ_RENDERING_ENGINE_INSTALL_DIR});\x1b[m\x1b[K\n'}
+[89.439384] (gz-waves1) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                                \n'}
+[89.439488] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[89.439588] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[89.439684] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[89.439778] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27\x1b[m\x1b[K,\n'}
+[89.439890] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45\x1b[m\x1b[K,\n'}
+[89.439996] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtensionManager.cc:44\x1b[m\x1b[K:\n'}
+[89.440112] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[89.440209] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[89.440308] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[89.466276] (-) TimerEvent: {}
+[89.566625] (-) TimerEvent: {}
+[89.666939] (-) TimerEvent: {}
+[89.767313] (-) TimerEvent: {}
+[89.867627] (-) TimerEvent: {}
+[89.967953] (-) TimerEvent: {}
+[90.068326] (-) TimerEvent: {}
+[90.168649] (-) TimerEvent: {}
+[90.268905] (-) TimerEvent: {}
+[90.369213] (-) TimerEvent: {}
+[90.469520] (-) TimerEvent: {}
+[90.569831] (-) TimerEvent: {}
+[90.670172] (-) TimerEvent: {}
+[90.770511] (-) TimerEvent: {}
+[90.870839] (-) TimerEvent: {}
+[90.971157] (-) TimerEvent: {}
+[91.071496] (-) TimerEvent: {}
+[91.171797] (-) TimerEvent: {}
+[91.272134] (-) TimerEvent: {}
+[91.372469] (-) TimerEvent: {}
+[91.472719] (-) TimerEvent: {}
+[91.573310] (-) TimerEvent: {}
+[91.673635] (-) TimerEvent: {}
+[91.773987] (-) TimerEvent: {}
+[91.874324] (-) TimerEvent: {}
+[91.974649] (-) TimerEvent: {}
+[92.074983] (-) TimerEvent: {}
+[92.175334] (-) TimerEvent: {}
+[92.275656] (-) TimerEvent: {}
+[92.375975] (-) TimerEvent: {}
+[92.476311] (-) TimerEvent: {}
+[92.576618] (-) TimerEvent: {}
+[92.676936] (-) TimerEvent: {}
+[92.777257] (-) TimerEvent: {}
+[92.877596] (-) TimerEvent: {}
+[92.977937] (-) TimerEvent: {}
+[92.984076] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[92.984275] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[92.984368] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[92.984473] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27\x1b[m\x1b[K,\n'}
+[92.984565] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.cc:16\x1b[m\x1b[K:\n'}
+[92.984666] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[92.984756] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[92.984842] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[93.003114] (gz-waves1) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-rendering.so\x1b[0m\n'}
+[93.078108] (-) TimerEvent: {}
+[93.165307] (gz-waves1) StdoutLine: {'line': b'[ 77%] Built target gz-waves1-rendering\n'}
+[93.178615] (-) TimerEvent: {}
+[93.197571] (gz-waves1) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2DynamicMesh.cc.o\x1b[0m\n'}
+[93.199875] (gz-waves1) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2DisplacementMap.cc.o\x1b[0m\n'}
+[93.201407] (gz-waves1) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-waves-visual-system.dir/WavesVisual.cc.o\x1b[0m\n'}
+[93.204066] (gz-waves1) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2RenderEngineExtension.cc.o\x1b[0m\n'}
+[93.214106] (gz-waves1) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2OceanGeometry.cc.o\x1b[0m\n'}
+[93.215819] (gz-waves1) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2OceanVisual.cc.o\x1b[0m\n'}
+[93.278681] (-) TimerEvent: {}
+[93.381938] (-) TimerEvent: {}
+[93.484411] (-) TimerEvent: {}
+[93.585219] (-) TimerEvent: {}
+[93.687421] (-) TimerEvent: {}
+[93.789686] (-) TimerEvent: {}
+[93.891481] (-) TimerEvent: {}
+[93.991848] (-) TimerEvent: {}
+[94.092185] (-) TimerEvent: {}
+[94.192515] (-) TimerEvent: {}
+[94.293004] (-) TimerEvent: {}
+[94.399204] (-) TimerEvent: {}
+[94.499739] (-) TimerEvent: {}
+[94.600284] (-) TimerEvent: {}
+[94.700749] (-) TimerEvent: {}
+[94.801226] (-) TimerEvent: {}
+[94.901706] (-) TimerEvent: {}
+[95.002267] (-) TimerEvent: {}
+[95.102799] (-) TimerEvent: {}
+[95.203166] (-) TimerEvent: {}
+[95.303548] (-) TimerEvent: {}
+[95.403968] (-) TimerEvent: {}
+[95.504394] (-) TimerEvent: {}
+[95.604851] (-) TimerEvent: {}
+[95.705255] (-) TimerEvent: {}
+[95.805665] (-) TimerEvent: {}
+[95.906080] (-) TimerEvent: {}
+[96.006471] (-) TimerEvent: {}
+[96.106861] (-) TimerEvent: {}
+[96.207313] (-) TimerEvent: {}
+[96.307726] (-) TimerEvent: {}
+[96.408131] (-) TimerEvent: {}
+[96.508552] (-) TimerEvent: {}
+[96.608998] (-) TimerEvent: {}
+[96.709394] (-) TimerEvent: {}
+[96.809854] (-) TimerEvent: {}
+[96.910297] (-) TimerEvent: {}
+[97.010757] (-) TimerEvent: {}
+[97.111300] (-) TimerEvent: {}
+[97.211824] (-) TimerEvent: {}
+[97.312248] (-) TimerEvent: {}
+[97.413240] (-) TimerEvent: {}
+[97.513925] (-) TimerEvent: {}
+[97.614368] (-) TimerEvent: {}
+[97.660084] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30\x1b[m\x1b[K,\n'}
+[97.660472] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgreItem.h:31\x1b[m\x1b[K,\n'}
+[97.660753] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/dynamic/DynamicGeometry.cc:43\x1b[m\x1b[K:\n'}
+[97.661010] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Ogre can\'t tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[97.661233] (gz-waves1) StderrLine: {'line': b'  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." \x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[97.661432] (gz-waves1) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[97.685035] (gz-waves1) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-dynamic-geometry-system.so\x1b[0m\n'}
+[97.714642] (-) TimerEvent: {}
+[97.815292] (-) TimerEvent: {}
+[97.915943] (-) TimerEvent: {}
+[98.016459] (-) TimerEvent: {}
+[98.117000] (-) TimerEvent: {}
+[98.217625] (-) TimerEvent: {}
+[98.318232] (-) TimerEvent: {}
+[98.418959] (-) TimerEvent: {}
+[98.520897] (-) TimerEvent: {}
+[98.623026] (-) TimerEvent: {}
+[98.677522] (gz-waves1) StdoutLine: {'line': b'[ 91%] Built target gz-waves1-dynamic-geometry-system\n'}
+[98.691710] (gz-waves1) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2SceneNodeFactory.cc.o\x1b[0m\n'}
+[98.723151] (-) TimerEvent: {}
+[98.823617] (-) TimerEvent: {}
+[98.924058] (-) TimerEvent: {}
+[99.024429] (-) TimerEvent: {}
+[99.124823] (-) TimerEvent: {}
+[99.225308] (-) TimerEvent: {}
+[99.326143] (-) TimerEvent: {}
+[99.428039] (-) TimerEvent: {}
+[99.528424] (-) TimerEvent: {}
+[99.628807] (-) TimerEvent: {}
+[99.729205] (-) TimerEvent: {}
+[99.829677] (-) TimerEvent: {}
+[99.930148] (-) TimerEvent: {}
+[100.030695] (-) TimerEvent: {}
+[100.131334] (-) TimerEvent: {}
+[100.231799] (-) TimerEvent: {}
+[100.244560] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[100.244818] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanGeometry.cc:18\x1b[m\x1b[K:\n'}
+[100.244932] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.245040] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[100.245156] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[100.245254] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30\x1b[m\x1b[K,\n'}
+[100.245352] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/Hlms/Pbs/OgreHlmsPbsPrerequisites.h:31\x1b[m\x1b[K,\n'}
+[100.245447] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Material.hh:29\x1b[m\x1b[K,\n'}
+[100.245545] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanGeometry.cc:19\x1b[m\x1b[K:\n'}
+[100.245638] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Ogre can\'t tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.245777] (gz-waves1) StderrLine: {'line': b'  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." \x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[100.245886] (gz-waves1) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[100.331934] (-) TimerEvent: {}
+[100.432366] (-) TimerEvent: {}
+[100.532919] (-) TimerEvent: {}
+[100.633316] (-) TimerEvent: {}
+[100.733705] (-) TimerEvent: {}
+[100.834286] (-) TimerEvent: {}
+[100.934743] (-) TimerEvent: {}
+[101.035208] (-) TimerEvent: {}
+[101.135726] (-) TimerEvent: {}
+[101.236255] (-) TimerEvent: {}
+[101.336700] (-) TimerEvent: {}
+[101.437232] (-) TimerEvent: {}
+[101.538004] (-) TimerEvent: {}
+[101.639325] (-) TimerEvent: {}
+[101.739811] (-) TimerEvent: {}
+[101.840293] (-) TimerEvent: {}
+[101.940916] (-) TimerEvent: {}
+[102.041700] (-) TimerEvent: {}
+[102.142274] (-) TimerEvent: {}
+[102.242761] (-) TimerEvent: {}
+[102.343237] (-) TimerEvent: {}
+[102.443959] (-) TimerEvent: {}
+[102.544403] (-) TimerEvent: {}
+[102.644961] (-) TimerEvent: {}
+[102.745466] (-) TimerEvent: {}
+[102.845992] (-) TimerEvent: {}
+[102.946428] (-) TimerEvent: {}
+[103.046871] (-) TimerEvent: {}
+[103.147345] (-) TimerEvent: {}
+[103.247784] (-) TimerEvent: {}
+[103.348145] (-) TimerEvent: {}
+[103.448443] (-) TimerEvent: {}
+[103.548799] (-) TimerEvent: {}
+[103.649182] (-) TimerEvent: {}
+[103.749547] (-) TimerEvent: {}
+[103.849982] (-) TimerEvent: {}
+[103.950380] (-) TimerEvent: {}
+[104.050835] (-) TimerEvent: {}
+[104.151233] (-) TimerEvent: {}
+[104.251762] (-) TimerEvent: {}
+[104.352139] (-) TimerEvent: {}
+[104.452647] (-) TimerEvent: {}
+[104.545111] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30\x1b[m\x1b[K,\n'}
+[104.545441] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePixelFormatGpu.h:31\x1b[m\x1b[K,\n'}
+[104.545603] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgreHlmsPso.h:31\x1b[m\x1b[K,\n'}
+[104.545729] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DynamicMesh.hh:52\x1b[m\x1b[K,\n'}
+[104.545857] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DynamicMesh.cc:35\x1b[m\x1b[K:\n'}
+[104.545973] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Ogre can\'t tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[104.546105] (gz-waves1) StderrLine: {'line': b'  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." \x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[104.546224] (gz-waves1) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[104.552790] (-) TimerEvent: {}
+[104.653265] (-) TimerEvent: {}
+[104.753731] (-) TimerEvent: {}
+[104.854277] (-) TimerEvent: {}
+[104.954695] (-) TimerEvent: {}
+[105.009156] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[105.009376] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28\x1b[m\x1b[K,\n'}
+[105.009508] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/hydrodynamics/Hydrodynamics.cc:54\x1b[m\x1b[K:\n'}
+[105.009610] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[105.009728] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[105.009825] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[105.029844] (gz-waves1) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-hydrodynamics-system.so\x1b[0m\n'}
+[105.054847] (-) TimerEvent: {}
+[105.155262] (-) TimerEvent: {}
+[105.255752] (-) TimerEvent: {}
+[105.356333] (-) TimerEvent: {}
+[105.456771] (-) TimerEvent: {}
+[105.557184] (-) TimerEvent: {}
+[105.580338] (gz-waves1) StdoutLine: {'line': b'[ 95%] Built target gz-waves1-hydrodynamics-system\n'}
+[105.657321] (-) TimerEvent: {}
+[105.757679] (-) TimerEvent: {}
+[105.858085] (-) TimerEvent: {}
+[105.958458] (-) TimerEvent: {}
+[106.058874] (-) TimerEvent: {}
+[106.159236] (-) TimerEvent: {}
+[106.259594] (-) TimerEvent: {}
+[106.359983] (-) TimerEvent: {}
+[106.460380] (-) TimerEvent: {}
+[106.560748] (-) TimerEvent: {}
+[106.661088] (-) TimerEvent: {}
+[106.761511] (-) TimerEvent: {}
+[106.861971] (-) TimerEvent: {}
+[106.962373] (-) TimerEvent: {}
+[107.062766] (-) TimerEvent: {}
+[107.163137] (-) TimerEvent: {}
+[107.263549] (-) TimerEvent: {}
+[107.363924] (-) TimerEvent: {}
+[107.464324] (-) TimerEvent: {}
+[107.564869] (-) TimerEvent: {}
+[107.665252] (-) TimerEvent: {}
+[107.765704] (-) TimerEvent: {}
+[107.866085] (-) TimerEvent: {}
+[107.966520] (-) TimerEvent: {}
+[108.066928] (-) TimerEvent: {}
+[108.167347] (-) TimerEvent: {}
+[108.267815] (-) TimerEvent: {}
+[108.368191] (-) TimerEvent: {}
+[108.468555] (-) TimerEvent: {}
+[108.568915] (-) TimerEvent: {}
+[108.669275] (-) TimerEvent: {}
+[108.769645] (-) TimerEvent: {}
+[108.869985] (-) TimerEvent: {}
+[108.970348] (-) TimerEvent: {}
+[109.070730] (-) TimerEvent: {}
+[109.171085] (-) TimerEvent: {}
+[109.271456] (-) TimerEvent: {}
+[109.371879] (-) TimerEvent: {}
+[109.472277] (-) TimerEvent: {}
+[109.572705] (-) TimerEvent: {}
+[109.673093] (-) TimerEvent: {}
+[109.773460] (-) TimerEvent: {}
+[109.873899] (-) TimerEvent: {}
+[109.974295] (-) TimerEvent: {}
+[110.074664] (-) TimerEvent: {}
+[110.175038] (-) TimerEvent: {}
+[110.275388] (-) TimerEvent: {}
+[110.375732] (-) TimerEvent: {}
+[110.476074] (-) TimerEvent: {}
+[110.576428] (-) TimerEvent: {}
+[110.714120] (-) TimerEvent: {}
+[110.814481] (-) TimerEvent: {}
+[110.914847] (-) TimerEvent: {}
+[111.015181] (-) TimerEvent: {}
+[111.115535] (-) TimerEvent: {}
+[111.215940] (-) TimerEvent: {}
+[111.316386] (-) TimerEvent: {}
+[111.416951] (-) TimerEvent: {}
+[111.517343] (-) TimerEvent: {}
+[111.617731] (-) TimerEvent: {}
+[111.718119] (-) TimerEvent: {}
+[111.818530] (-) TimerEvent: {}
+[111.918944] (-) TimerEvent: {}
+[112.019357] (-) TimerEvent: {}
+[112.119722] (-) TimerEvent: {}
+[112.220109] (-) TimerEvent: {}
+[112.320480] (-) TimerEvent: {}
+[112.420861] (-) TimerEvent: {}
+[112.521255] (-) TimerEvent: {}
+[112.621618] (-) TimerEvent: {}
+[112.721969] (-) TimerEvent: {}
+[112.822359] (-) TimerEvent: {}
+[112.922756] (-) TimerEvent: {}
+[113.023174] (-) TimerEvent: {}
+[113.123548] (-) TimerEvent: {}
+[113.223933] (-) TimerEvent: {}
+[113.324302] (-) TimerEvent: {}
+[113.424677] (-) TimerEvent: {}
+[113.525043] (-) TimerEvent: {}
+[113.625416] (-) TimerEvent: {}
+[113.725761] (-) TimerEvent: {}
+[113.826127] (-) TimerEvent: {}
+[113.926483] (-) TimerEvent: {}
+[114.026910] (-) TimerEvent: {}
+[114.127295] (-) TimerEvent: {}
+[114.228669] (-) TimerEvent: {}
+[114.329423] (-) TimerEvent: {}
+[114.431784] (-) TimerEvent: {}
+[114.532211] (-) TimerEvent: {}
+[114.632708] (-) TimerEvent: {}
+[114.658473] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30\x1b[m\x1b[K,\n'}
+[114.658690] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/Ogre.h:31\x1b[m\x1b[K,\n'}
+[114.658816] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Includes.hh:32\x1b[m\x1b[K,\n'}
+[114.658908] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh:32\x1b[m\x1b[K,\n'}
+[114.659002] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2.hh:25\x1b[m\x1b[K,\n'}
+[114.659095] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.hh:28\x1b[m\x1b[K,\n'}
+[114.659186] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.cc:16\x1b[m\x1b[K:\n'}
+[114.659276] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Ogre can\'t tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[114.659435] (gz-waves1) StderrLine: {'line': b'  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." \x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[114.659531] (gz-waves1) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[114.732827] (-) TimerEvent: {}
+[114.833755] (-) TimerEvent: {}
+[114.934215] (-) TimerEvent: {}
+[115.034613] (-) TimerEvent: {}
+[115.135018] (-) TimerEvent: {}
+[115.235448] (-) TimerEvent: {}
+[115.335871] (-) TimerEvent: {}
+[115.436314] (-) TimerEvent: {}
+[115.536668] (-) TimerEvent: {}
+[115.637019] (-) TimerEvent: {}
+[115.737429] (-) TimerEvent: {}
+[115.837806] (-) TimerEvent: {}
+[115.938162] (-) TimerEvent: {}
+[116.038562] (-) TimerEvent: {}
+[116.138962] (-) TimerEvent: {}
+[116.239285] (-) TimerEvent: {}
+[116.339627] (-) TimerEvent: {}
+[116.439977] (-) TimerEvent: {}
+[116.540319] (-) TimerEvent: {}
+[116.640674] (-) TimerEvent: {}
+[116.741039] (-) TimerEvent: {}
+[116.841401] (-) TimerEvent: {}
+[116.941786] (-) TimerEvent: {}
+[117.042137] (-) TimerEvent: {}
+[117.142545] (-) TimerEvent: {}
+[117.242877] (-) TimerEvent: {}
+[117.343243] (-) TimerEvent: {}
+[117.443588] (-) TimerEvent: {}
+[117.543929] (-) TimerEvent: {}
+[117.644281] (-) TimerEvent: {}
+[117.744652] (-) TimerEvent: {}
+[117.844985] (-) TimerEvent: {}
+[117.945303] (-) TimerEvent: {}
+[118.045710] (-) TimerEvent: {}
+[118.094624] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[118.094837] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[118.094946] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[118.095035] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27\x1b[m\x1b[K,\n'}
+[118.095121] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45\x1b[m\x1b[K,\n'}
+[118.095211] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.hh:27\x1b[m\x1b[K,\n'}
+[118.095301] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2RenderEngineExtension.hh:31\x1b[m\x1b[K,\n'}
+[118.095391] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2RenderEngineExtension.cc:16\x1b[m\x1b[K:\n'}
+[118.095476] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[118.095587] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[118.095674] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[118.145821] (-) TimerEvent: {}
+[118.246152] (-) TimerEvent: {}
+[118.346469] (-) TimerEvent: {}
+[118.446800] (-) TimerEvent: {}
+[118.547147] (-) TimerEvent: {}
+[118.647486] (-) TimerEvent: {}
+[118.747837] (-) TimerEvent: {}
+[118.848177] (-) TimerEvent: {}
+[118.948502] (-) TimerEvent: {}
+[119.048836] (-) TimerEvent: {}
+[119.149172] (-) TimerEvent: {}
+[119.249554] (-) TimerEvent: {}
+[119.349903] (-) TimerEvent: {}
+[119.450211] (-) TimerEvent: {}
+[119.550573] (-) TimerEvent: {}
+[119.650942] (-) TimerEvent: {}
+[119.751341] (-) TimerEvent: {}
+[119.851647] (-) TimerEvent: {}
+[119.951958] (-) TimerEvent: {}
+[120.052308] (-) TimerEvent: {}
+[120.152655] (-) TimerEvent: {}
+[120.252931] (-) TimerEvent: {}
+[120.353182] (-) TimerEvent: {}
+[120.453503] (-) TimerEvent: {}
+[120.484021] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[120.484346] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[120.484559] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.hh:24\x1b[m\x1b[K,\n'}
+[120.484861] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.cc:16\x1b[m\x1b[K:\n'}
+[120.485041] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[120.485176] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[120.485293] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[120.485409] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30\x1b[m\x1b[K,\n'}
+[120.485530] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/Hlms/Pbs/OgreHlmsPbsPrerequisites.h:31\x1b[m\x1b[K,\n'}
+[120.485647] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Material.hh:29\x1b[m\x1b[K,\n'}
+[120.485760] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.cc:20\x1b[m\x1b[K:\n'}
+[120.485894] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Ogre can\'t tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[120.486014] (gz-waves1) StderrLine: {'line': b'  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." \x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[120.486112] (gz-waves1) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[120.553615] (-) TimerEvent: {}
+[120.653969] (-) TimerEvent: {}
+[120.754297] (-) TimerEvent: {}
+[120.854645] (-) TimerEvent: {}
+[120.954950] (-) TimerEvent: {}
+[121.055249] (-) TimerEvent: {}
+[121.155555] (-) TimerEvent: {}
+[121.255893] (-) TimerEvent: {}
+[121.356261] (-) TimerEvent: {}
+[121.456651] (-) TimerEvent: {}
+[121.556978] (-) TimerEvent: {}
+[121.657281] (-) TimerEvent: {}
+[121.757574] (-) TimerEvent: {}
+[121.857889] (-) TimerEvent: {}
+[121.958227] (-) TimerEvent: {}
+[122.058529] (-) TimerEvent: {}
+[122.158871] (-) TimerEvent: {}
+[122.259189] (-) TimerEvent: {}
+[122.359509] (-) TimerEvent: {}
+[122.459867] (-) TimerEvent: {}
+[122.560252] (-) TimerEvent: {}
+[122.660625] (-) TimerEvent: {}
+[122.709143] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[122.709372] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[122.709472] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/WavesVisual.cc:74\x1b[m\x1b[K:\n'}
+[122.709572] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[122.709658] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[122.709741] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[122.727207] (gz-waves1) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-waves-visual-system.so\x1b[0m\n'}
+[122.760711] (-) TimerEvent: {}
+[122.861133] (-) TimerEvent: {}
+[122.961615] (-) TimerEvent: {}
+[123.058092] (gz-waves1) StdoutLine: {'line': b'[ 97%] Built target gz-waves1-waves-visual-system\n'}
+[123.061723] (-) TimerEvent: {}
+[123.161996] (-) TimerEvent: {}
+[123.262298] (-) TimerEvent: {}
+[123.362650] (-) TimerEvent: {}
+[123.462980] (-) TimerEvent: {}
+[123.563300] (-) TimerEvent: {}
+[123.663650] (-) TimerEvent: {}
+[123.763975] (-) TimerEvent: {}
+[123.864293] (-) TimerEvent: {}
+[123.964710] (-) TimerEvent: {}
+[124.065030] (-) TimerEvent: {}
+[124.165400] (-) TimerEvent: {}
+[124.265732] (-) TimerEvent: {}
+[124.366109] (-) TimerEvent: {}
+[124.466429] (-) TimerEvent: {}
+[124.566783] (-) TimerEvent: {}
+[124.667179] (-) TimerEvent: {}
+[124.767559] (-) TimerEvent: {}
+[124.867878] (-) TimerEvent: {}
+[124.968165] (-) TimerEvent: {}
+[125.068505] (-) TimerEvent: {}
+[125.168811] (-) TimerEvent: {}
+[125.269111] (-) TimerEvent: {}
+[125.369411] (-) TimerEvent: {}
+[125.469696] (-) TimerEvent: {}
+[125.570011] (-) TimerEvent: {}
+[125.670342] (-) TimerEvent: {}
+[125.770648] (-) TimerEvent: {}
+[125.870989] (-) TimerEvent: {}
+[125.971430] (-) TimerEvent: {}
+[126.071743] (-) TimerEvent: {}
+[126.172057] (-) TimerEvent: {}
+[126.272371] (-) TimerEvent: {}
+[126.372689] (-) TimerEvent: {}
+[126.472995] (-) TimerEvent: {}
+[126.573312] (-) TimerEvent: {}
+[126.673614] (-) TimerEvent: {}
+[126.773925] (-) TimerEvent: {}
+[126.874255] (-) TimerEvent: {}
+[126.974582] (-) TimerEvent: {}
+[127.074899] (-) TimerEvent: {}
+[127.175238] (-) TimerEvent: {}
+[127.275560] (-) TimerEvent: {}
+[127.375874] (-) TimerEvent: {}
+[127.476223] (-) TimerEvent: {}
+[127.576592] (-) TimerEvent: {}
+[127.676911] (-) TimerEvent: {}
+[127.777245] (-) TimerEvent: {}
+[127.824175] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gz/common5/gz/common.hh:35\x1b[m\x1b[K,\n'}
+[127.824384] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24\x1b[m\x1b[K,\n'}
+[127.824481] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29\x1b[m\x1b[K,\n'}
+[127.824596] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27\x1b[m\x1b[K,\n'}
+[127.824688] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.hh:25\x1b[m\x1b[K,\n'}
+[127.824769] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.cc:16\x1b[m\x1b[K:\n'}
+[127.824852] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils\x1b[m\x1b[K\xe2\x80\x99\n'}
+[127.824943] (gz-waves1) StderrLine: {'line': b'   23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[127.825027] (gz-waves1) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[127.825107] (gz-waves1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30\x1b[m\x1b[K,\n'}
+[127.825187] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/OGRE-2.3/Ogre.h:31\x1b[m\x1b[K,\n'}
+[127.825267] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Includes.hh:32\x1b[m\x1b[K,\n'}
+[127.825346] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh:32\x1b[m\x1b[K,\n'}
+[127.825424] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/rendering7/gz/rendering/ogre2.hh:25\x1b[m\x1b[K,\n'}
+[127.825502] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.hh:28\x1b[m\x1b[K,\n'}
+[127.825579] (gz-waves1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.cc:25\x1b[m\x1b[K:\n'}
+[127.825658] (gz-waves1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Ogre can\'t tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[127.825770] (gz-waves1) StderrLine: {'line': b'  360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." \x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[127.825852] (gz-waves1) StderrLine: {'line': b'      |                                                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[127.857417] (gz-waves1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-rendering-ogre2.so\x1b[0m\n'}
+[127.877382] (-) TimerEvent: {}
+[127.977800] (-) TimerEvent: {}
+[128.078155] (-) TimerEvent: {}
+[128.178498] (-) TimerEvent: {}
+[128.217257] (gz-waves1) StdoutLine: {'line': b'[100%] Built target gz-waves1-rendering-ogre2\n'}
+[128.231899] (gz-waves1) CommandEnded: {'returncode': 0}
+[128.278650] (-) TimerEvent: {}
+[128.284543] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'install'}
+[128.299689] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1'], 'cwd': '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aceti/ASV_WORK/gz_ws/src/ardupilot_gazebo/build::/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', '/home/aceti/ardupilot_gazebo/models:/home/aceti/ASV_WORK/gz_ws/src/ardupilot_gazebo/worlds::/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/aceti/ASV_WORK/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/aceti/ASV_WORK/SITL_Models/Gazebo/models:/home/aceti/ASV_WORK/SITL_Models/Gazebo/worlds'), ('USER', 'aceti'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aceti'), ('OLDPWD', '/home/aceti/ASV_WORK/b'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aceti'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aceti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aceti/gems/bin:/usr/lib/ccache:/home/aceti/ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/aceti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aceti-Lenovo-V15-IIL:@/tmp/.ICE-unix/2267,unix/aceti-Lenovo-V15-IIL:/tmp/.ICE-unix/2267'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03505fcd_7707_454b_bea9_3ac09256b69f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0E3CU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/aceti/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[128.312551] (gz-waves1) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[128.313031] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-all/gz-waves1-all-config.cmake\n'}
+[128.313236] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-all/gz-waves1-all-config-version.cmake\n'}
+[128.313513] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-all/gz-waves1-all-targets.cmake\n'}
+[128.314256] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/detail/Export.hh\n'}
+[128.314495] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Export.hh\n'}
+[128.314674] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1.so.1.0.0\n'}
+[128.360724] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1.so.1\n'}
+[128.360934] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1.so\n'}
+[128.361086] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-config.cmake\n'}
+[128.361174] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-config-version.cmake\n'}
+[128.361234] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-targets.cmake\n'}
+[128.361390] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-targets-relwithdebinfo.cmake\n'}
+[128.361476] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1.pc\n'}
+[128.361920] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh\n'}
+[128.362043] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh\n'}
+[128.362132] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0\n'}
+[128.366840] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so.1\n'}
+[128.367006] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0" to ""\n'}
+[128.367122] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so\n'}
+[128.367225] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config.cmake\n'}
+[128.367330] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config-version.cmake\n'}
+[128.367418] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets.cmake\n'}
+[128.367501] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets-relwithdebinfo.cmake\n'}
+[128.367604] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-dynamic-geometry-system.pc\n'}
+[128.368016] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh\n'}
+[128.368089] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh\n'}
+[128.368223] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so.1.0.0\n'}
+[128.377882] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so.1\n'}
+[128.378044] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so.1.0.0" to ""\n'}
+[128.378143] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so\n'}
+[128.378250] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config.cmake\n'}
+[128.378353] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config-version.cmake\n'}
+[128.378425] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets.cmake\n'}
+[128.378519] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets-relwithdebinfo.cmake\n'}
+[128.378654] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-hydrodynamics-system.pc\n'}
+[128.378705] (-) TimerEvent: {}
+[128.379373] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering/detail/Export.hh\n'}
+[128.379475] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering/Export.hh\n'}
+[128.379611] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so.1.0.0\n'}
+[128.382419] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so.1\n'}
+[128.382545] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so.1.0.0" to ""\n'}
+[128.382614] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so\n'}
+[128.382685] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config.cmake\n'}
+[128.382774] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config-version.cmake\n'}
+[128.382937] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets.cmake\n'}
+[128.383169] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets-relwithdebinfo.cmake\n'}
+[128.383270] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-rendering.pc\n'}
+[128.383436] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh\n'}
+[128.383524] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh\n'}
+[128.383714] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so.1.0.0\n'}
+[128.391358] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so.1\n'}
+[128.391554] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so.1.0.0" to ""\n'}
+[128.391643] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so\n'}
+[128.391795] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config.cmake\n'}
+[128.391887] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config-version.cmake\n'}
+[128.392048] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets.cmake\n'}
+[128.392136] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets-relwithdebinfo.cmake\n'}
+[128.392194] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-rendering-ogre2.pc\n'}
+[128.392268] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh\n'}
+[128.392335] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-visual-system/Export.hh\n'}
+[128.392444] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so.1.0.0\n'}
+[128.398956] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so.1\n'}
+[128.399175] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so.1.0.0" to ""\n'}
+[128.399335] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so\n'}
+[128.399514] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config.cmake\n'}
+[128.399837] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config-version.cmake\n'}
+[128.399911] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets.cmake\n'}
+[128.399969] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets-relwithdebinfo.cmake\n'}
+[128.400023] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-waves-visual-system.pc\n'}
+[128.400103] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh\n'}
+[128.400174] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-model-system/Export.hh\n'}
+[128.400226] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so.1.0.0\n'}
+[128.403707] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so.1\n'}
+[128.403818] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so.1.0.0" to ""\n'}
+[128.403885] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so\n'}
+[128.403965] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config.cmake\n'}
+[128.404049] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config-version.cmake\n'}
+[128.404155] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets.cmake\n'}
+[128.404267] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets-relwithdebinfo.cmake\n'}
+[128.404374] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-waves-model-system.pc\n'}
+[128.405093] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/components/Wavefield.hh\n'}
+[128.405245] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Algorithm.hh\n'}
+[128.405337] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/CGALTypes.hh\n'}
+[128.405500] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Convert.hh\n'}
+[128.405632] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Geometry.hh\n'}
+[128.405692] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Grid.hh\n'}
+[128.405783] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh\n'}
+[128.405839] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh\n'}
+[128.405891] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh\n'}
+[128.405971] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/MeshTools.hh\n'}
+[128.406027] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/OceanTile.hh\n'}
+[128.406079] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/PhysicalConstants.hh\n'}
+[128.406154] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Physics.hh\n'}
+[128.406219] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/TriangulatedGrid.hh\n'}
+[128.406271] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh\n'}
+[128.406349] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Types.hh\n'}
+[128.406405] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Utilities.hh\n'}
+[128.406477] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveParameters.hh\n'}
+[128.406551] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveSimulation.hh\n'}
+[128.406629] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveSpectrum.hh\n'}
+[128.406716] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh\n'}
+[128.406779] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Wavefield.hh\n'}
+[128.406843] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WavefieldSampler.hh\n'}
+[128.406965] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/../waves.hh\n'}
+[128.407068] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/config.hh\n'}
+[128.407303] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/components.hh\n'}
+[128.408844] (gz-waves1) CommandEnded: {'returncode': 0}
+[128.443766] (gz-waves1) JobEnded: {'identifier': 'gz-waves1', 'rc': 0}
+[128.445489] (-) EventReactorShutdown: {}

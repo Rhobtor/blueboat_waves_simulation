@@ -1,0 +1,781 @@
+[0.013s] Invoking command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1': /usr/bin/cmake /home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves -DCMAKE_INSTALL_PREFIX=/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.451s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.452s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.459s] -- Detecting CXX compiler ABI info
+[0.618s] -- Detecting CXX compiler ABI info - done
+[0.633s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.634s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.657s] -- gz-waves1 version 1.0.0
+[0.657s] -- Operating system is Linux
+[0.669s] -- Found CPack generators: DEB
+[3.176s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams system filesystem 
+[3.184s] -- Looking for gz-math7 -- found version 7.4.0
+[3.185s] -- Searching for dependencies of gz-math7
+[3.189s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.190s] -- Searching for dependencies of gz-utils2
+[3.193s] -- Searching for <gz-math7> component [eigen3]
+[3.197s] -- Looking for gz-math7-eigen3 -- found version 7.4.0
+[3.198s] -- Searching for dependencies of gz-math7-eigen3
+[3.216s] -- Looking for gz-math7 - found
+[3.216s] 
+[3.221s] -- Looking for gz-common5 -- found version 5.6.0
+[3.221s] -- Searching for dependencies of gz-common5
+[3.222s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.223s] -- Looking for dlfcn.h - found
+[3.235s] -- Looking for libdl - found
+[3.236s] -- Found DL: TRUE  
+[3.242s] -- Checking for module 'uuid'
+[3.257s] --   Found uuid, version 2.37.2
+[3.308s] -- Found UUID: TRUE  
+[3.309s] -- Searching for <gz-common5> component [graphics]
+[3.314s] -- Looking for gz-common5-graphics -- found version 5.6.0
+[3.314s] -- Searching for dependencies of gz-common5-graphics
+[3.315s] -- Looking for gz-math7 -- found version 7.4.0
+[3.327s] -- Found GzAssimp: TRUE (found version "5.2.0") 
+[3.328s] -- Searching for <gz-common5> component [events]
+[3.333s] -- Looking for gz-common5-events -- found version 5.6.0
+[3.333s] -- Searching for dependencies of gz-common5-events
+[3.334s] -- Looking for gz-math7 -- found version 7.4.0
+[3.336s] -- Looking for gz-common5 - found
+[3.336s] 
+[3.341s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.341s] -- Searching for dependencies of gz-plugin2
+[3.342s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.343s] -- Searching for dependencies of gz-utils2
+[3.343s] -- Searching for <gz-utils2> component [cli]
+[3.347s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[3.348s] -- Searching for dependencies of gz-utils2-cli
+[3.350s] -- Searching for <gz-plugin2> component [loader]
+[3.354s] -- Looking for gz-plugin2-loader -- found version 2.0.3
+[3.354s] -- Searching for dependencies of gz-plugin2-loader
+[3.355s] -- Searching for <gz-plugin2> component [register]
+[3.358s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[3.359s] -- Searching for dependencies of gz-plugin2-register
+[3.359s] -- Looking for gz-plugin2 - found
+[3.360s] 
+[3.363s] -- Looking for gz-msgs9 -- found version 9.5.0
+[3.363s] -- Searching for dependencies of gz-msgs9
+[3.677s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.679s] -- Looking for gz-math7 -- found version 7.4.0
+[3.688s] -- Checking for module 'tinyxml2'
+[3.708s] --   Found tinyxml2, version 9.0.0
+[3.762s] -- Looking for gz-msgs9 - found
+[3.762s] 
+[3.767s] -- Looking for gz-transport12 -- found version 12.2.1
+[3.768s] -- Searching for dependencies of gz-transport12
+[3.828s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.833s] -- Checking for module 'libzmq >= 4'
+[3.850s] --   Found libzmq , version 4.3.4
+[3.908s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.921s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.922s] -- Looking for gz-msgs9 -- found version 9.5.0
+[3.923s] -- Looking for gz-transport12 - found
+[3.923s] 
+[3.928s] -- Looking for gz-rendering7 -- found version 7.4.2
+[3.929s] -- Searching for dependencies of gz-rendering7
+[3.930s] -- Looking for gz-math7 -- found version 7.4.0
+[3.931s] -- Looking for gz-common5 -- found version 5.6.0
+[3.931s] -- Searching for dependencies of gz-common5
+[3.932s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.932s] -- Looking for dlfcn.h - found
+[3.932s] -- Looking for libdl - found
+[3.946s] -- Searching for <gz-common5> component [graphics]
+[3.947s] -- Searching for <gz-common5> component [events]
+[3.948s] -- Searching for <gz-common5> component [geospatial]
+[3.952s] -- Looking for gz-common5-geospatial -- found version 5.6.0
+[3.953s] -- Searching for dependencies of gz-common5-geospatial
+[3.954s] -- Looking for gz-math7 -- found version 7.4.0
+[3.955s] -- Looking for gz-common5 -- found version 5.6.0
+[3.956s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.957s] -- Searching for dependencies of gz-plugin2
+[3.957s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.958s] -- Searching for <gz-plugin2> component [all]
+[3.961s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+[3.962s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.964s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.970s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[3.971s] -- Looking for gz-rendering7 - found
+[3.971s] 
+[3.976s] -- Looking for gz-sim7 -- found version 7.7.0
+[3.976s] -- Searching for dependencies of gz-sim7
+[3.979s] -- Looking for sdformat13 -- found version 13.6.0
+[3.979s] -- Searching for dependencies of sdformat13
+[3.985s] -- Looking for gz-math7 -- found version 7.4.0
+[3.985s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.987s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.987s] -- Looking for gz-transport12 -- found version 12.2.1
+[3.987s] -- Searching for dependencies of gz-transport12
+[4.019s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.024s] -- Checking for module 'libzmq >= 4'
+[4.034s] --   Found libzmq , version 4.3.4
+[4.091s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.092s] -- Looking for gz-msgs9 -- found version 9.5.0
+[4.092s] -- Searching for <gz-transport12> component [log]
+[4.096s] -- Looking for gz-transport12-log -- found version 12.2.1
+[4.097s] -- Searching for dependencies of gz-transport12-log
+[4.098s] -- Searching for <gz-transport12> component [parameters]
+[4.103s] -- Looking for gz-transport12-parameters -- found version 12.2.1
+[4.103s] -- Searching for dependencies of gz-transport12-parameters
+[4.105s] -- Looking for gz-msgs9 -- found version 9.5.0
+[4.106s] -- Looking for gz-common5 -- found version 5.6.0
+[4.107s] -- Searching for dependencies of gz-common5
+[4.108s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.108s] -- Looking for dlfcn.h - found
+[4.108s] -- Looking for libdl - found
+[4.120s] -- Searching for <gz-common5> component [profiler]
+[4.123s] -- Looking for gz-common5-profiler -- found version 5.6.0
+[4.124s] -- Searching for dependencies of gz-common5-profiler
+[4.125s] -- Searching for <gz-common5> component [events]
+[4.125s] -- Searching for <gz-common5> component [av]
+[4.128s] -- Looking for gz-common5-av -- found version 5.6.0
+[4.129s] -- Searching for dependencies of gz-common5-av
+[4.135s] -- Checking for module 'libswscale'
+[4.150s] --   Found libswscale, version 5.9.100
+[4.204s] -- Found SWSCALE: TRUE  
+[4.214s] -- Checking for module 'libavdevice >= 56.4.100'
+[4.236s] --   Found libavdevice , version 58.13.100
+[4.297s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[4.306s] -- Checking for module 'libavformat'
+[4.327s] --   Found libavformat, version 58.76.100
+[4.386s] -- Found AVFORMAT: TRUE  
+[4.395s] -- Checking for module 'libavcodec'
+[4.416s] --   Found libavcodec, version 58.134.100
+[4.473s] -- Found AVCODEC: TRUE  
+[4.482s] -- Checking for module 'libavutil'
+[4.502s] --   Found libavutil, version 56.70.100
+[4.556s] -- Found AVUTIL: TRUE  
+[4.558s] -- Searching for <gz-common5> component [io]
+[4.562s] -- Looking for gz-common5-io -- found version 5.6.0
+[4.563s] -- Searching for dependencies of gz-common5-io
+[4.568s] -- Looking for gz-fuel_tools8 -- found version 8.1.0
+[4.569s] -- Searching for dependencies of gz-fuel_tools8
+[4.704s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.721s] -- Checking for module 'jsoncpp'
+[4.743s] --   Found jsoncpp, version 1.9.5
+[4.799s] -- Found JSONCPP: TRUE  
+[4.811s] -- Checking for module 'libzip'
+[4.831s] --   Found libzip, version 1.7.3
+[4.886s] -- Found ZIP: TRUE  
+[4.887s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.888s] -- Looking for gz-common5 -- found version 5.6.0
+[4.889s] -- Searching for dependencies of gz-common5
+[4.889s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.889s] -- Looking for dlfcn.h - found
+[4.890s] -- Looking for libdl - found
+[4.904s] -- Searching for <gz-common5> component [testing]
+[4.908s] -- Looking for gz-common5-testing -- found version 5.6.0
+[4.909s] -- Searching for dependencies of gz-common5-testing
+[4.911s] -- Looking for gz-math7 -- found version 7.4.0
+[4.912s] -- Looking for gz-msgs9 -- found version 9.5.0
+[4.918s] -- Looking for gz-gui7 -- found version 7.2.1
+[4.919s] -- Searching for dependencies of gz-gui7
+[4.956s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.956s] -- Looking for gz-math7 -- found version 7.4.0
+[4.957s] -- Looking for gz-common5 -- found version 5.6.0
+[4.957s] -- Looking for gz-plugin2 -- found version 2.0.3
+[4.957s] -- Looking for gz-transport12 -- found version 12.2.1
+[4.958s] -- Looking for gz-rendering7 -- found version 7.4.2
+[4.958s] -- Looking for gz-msgs9 -- found version 9.5.0
+[4.991s] -- Looking for gz-physics6 -- found version 6.5.1
+[4.992s] -- Searching for dependencies of gz-physics6
+[4.992s] -- Looking for gz-math7 -- found version 7.4.0
+[4.992s] -- Looking for gz-plugin2 -- found version 2.0.3
+[4.993s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.994s] -- Searching for <gz-physics6> component [heightmap]
+[4.996s] -- Looking for gz-physics6-heightmap -- found version 6.5.1
+[4.996s] -- Searching for dependencies of gz-physics6-heightmap
+[4.997s] -- Looking for gz-common5 -- found version 5.6.0
+[4.997s] -- Searching for <gz-physics6> component [mesh]
+[4.999s] -- Looking for gz-physics6-mesh -- found version 6.5.1
+[5.000s] -- Searching for dependencies of gz-physics6-mesh
+[5.000s] -- Looking for gz-common5 -- found version 5.6.0
+[5.001s] -- Searching for <gz-physics6> component [sdf]
+[5.003s] -- Looking for gz-physics6-sdf -- found version 6.5.1
+[5.003s] -- Searching for dependencies of gz-physics6-sdf
+[5.003s] -- Looking for sdformat13 -- found version 13.6.0
+[5.007s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.007s] -- Searching for dependencies of gz-sensors7
+[5.027s] -- Looking for gz-math7 -- found version 7.4.0
+[5.027s] -- Looking for gz-common5 -- found version 5.6.0
+[5.028s] -- Looking for gz-transport12 -- found version 12.2.1
+[5.028s] -- Looking for gz-rendering7 -- found version 7.4.2
+[5.029s] -- Looking for gz-msgs9 -- found version 9.5.0
+[5.029s] -- Looking for sdformat13 -- found version 13.6.0
+[5.030s] -- Searching for <gz-sensors7> component [air_pressure]
+[5.032s] -- Looking for gz-sensors7-air_pressure -- found version 7.3.0
+[5.032s] -- Searching for dependencies of gz-sensors7-air_pressure
+[5.033s] -- Searching for <gz-sensors7> component [air_speed]
+[5.035s] -- Looking for gz-sensors7-air_speed -- found version 7.3.0
+[5.036s] -- Searching for dependencies of gz-sensors7-air_speed
+[5.036s] -- Searching for <gz-sensors7> component [altimeter]
+[5.038s] -- Looking for gz-sensors7-altimeter -- found version 7.3.0
+[5.039s] -- Searching for dependencies of gz-sensors7-altimeter
+[5.039s] -- Searching for <gz-sensors7> component [imu]
+[5.041s] -- Looking for gz-sensors7-imu -- found version 7.3.0
+[5.042s] -- Searching for dependencies of gz-sensors7-imu
+[5.042s] -- Searching for <gz-sensors7> component [force_torque]
+[5.044s] -- Looking for gz-sensors7-force_torque -- found version 7.3.0
+[5.045s] -- Searching for dependencies of gz-sensors7-force_torque
+[5.046s] -- Searching for <gz-sensors7> component [logical_camera]
+[5.048s] -- Looking for gz-sensors7-logical_camera -- found version 7.3.0
+[5.048s] -- Searching for dependencies of gz-sensors7-logical_camera
+[5.049s] -- Searching for <gz-sensors7> component [magnetometer]
+[5.051s] -- Looking for gz-sensors7-magnetometer -- found version 7.3.0
+[5.051s] -- Searching for dependencies of gz-sensors7-magnetometer
+[5.052s] -- Searching for <gz-sensors7> component [navsat]
+[5.054s] -- Looking for gz-sensors7-navsat -- found version 7.3.0
+[5.055s] -- Searching for dependencies of gz-sensors7-navsat
+[5.055s] -- Searching for <gz-sensors7> component [rendering]
+[5.057s] -- Looking for gz-sensors7-rendering -- found version 7.3.0
+[5.058s] -- Searching for dependencies of gz-sensors7-rendering
+[5.058s] -- Searching for <gz-sensors7> component [lidar]
+[5.060s] -- Looking for gz-sensors7-lidar -- found version 7.3.0
+[5.061s] -- Searching for dependencies of gz-sensors7-lidar
+[5.061s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.062s] -- Searching for <gz-sensors7> component [gpu_lidar]
+[5.064s] -- Looking for gz-sensors7-gpu_lidar -- found version 7.3.0
+[5.064s] -- Searching for dependencies of gz-sensors7-gpu_lidar
+[5.065s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.065s] -- Searching for <gz-sensors7> component [camera]
+[5.067s] -- Looking for gz-sensors7-camera -- found version 7.3.0
+[5.068s] -- Searching for dependencies of gz-sensors7-camera
+[5.068s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.069s] -- Searching for <gz-sensors7> component [boundingbox_camera]
+[5.071s] -- Looking for gz-sensors7-boundingbox_camera -- found version 7.3.0
+[5.071s] -- Searching for dependencies of gz-sensors7-boundingbox_camera
+[5.072s] -- Searching for <gz-sensors7> component [segmentation_camera]
+[5.074s] -- Looking for gz-sensors7-segmentation_camera -- found version 7.3.0
+[5.074s] -- Searching for dependencies of gz-sensors7-segmentation_camera
+[5.075s] -- Searching for <gz-sensors7> component [depth_camera]
+[5.077s] -- Looking for gz-sensors7-depth_camera -- found version 7.3.0
+[5.077s] -- Searching for dependencies of gz-sensors7-depth_camera
+[5.078s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.078s] -- Searching for <gz-sensors7> component [rgbd_camera]
+[5.080s] -- Looking for gz-sensors7-rgbd_camera -- found version 7.3.0
+[5.080s] -- Searching for dependencies of gz-sensors7-rgbd_camera
+[5.081s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.082s] -- Searching for <gz-sensors7> component [thermal_camera]
+[5.084s] -- Looking for gz-sensors7-thermal_camera -- found version 7.3.0
+[5.084s] -- Searching for dependencies of gz-sensors7-thermal_camera
+[5.084s] -- Looking for gz-sensors7 -- found version 7.3.0
+[5.085s] -- Searching for <gz-sensors7> component [wide_angle_camera]
+[5.087s] -- Looking for gz-sensors7-wide_angle_camera -- found version 7.3.0
+[5.087s] -- Searching for dependencies of gz-sensors7-wide_angle_camera
+[5.088s] -- Looking for gz-rendering7 -- found version 7.4.2
+[5.089s] -- Looking for gz-math7 -- found version 7.4.0
+[5.089s] -- Looking for gz-utils2 -- found version 2.2.0
+[5.110s] -- Looking for gz-sim7 - found
+[5.110s] 
+[5.111s] -- Looking for sdformat13 -- found version 13.6.0
+[5.111s] -- Looking for sdformat13 - found
+[5.111s] 
+[5.111s] -- Compiling against Gazebo Garden
+[5.180s] -- Checking for module 'OGRE-RTShaderSystem >= 1.9'
+[5.200s] --   Found OGRE-RTShaderSystem , version 1.9.0
+[5.268s] -- Checking for module 'OGRE-Terrain >= 1.9'
+[5.289s] --   Found OGRE-Terrain , version 1.9.0
+[5.359s] -- Checking for module 'OGRE-Overlay >= 1.9'
+[5.379s] --   Found OGRE-Overlay , version 1.9.0
+[5.445s] -- Checking for module 'OGRE-Paging >= 1.9'
+[5.467s] --   Found OGRE-Paging , version 1.9.0
+[5.531s] -- Looking for GzOGRE - found
+[5.531s] 
+[5.553s] -- Looking for OGRE using the name: OGRE2
+[5.651s] --   + component HlmsPbs: found
+[5.657s] --   + component HlmsUnlit: found
+[5.663s] --   + component Overlay: found
+[5.669s] --   + component PlanarReflections: found
+[5.671s] -- Looking for GzOGRE2 - found
+[5.671s] 
+[5.678s] [33mCMake Warning at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake:92 (message):
+[5.678s]   CGAL_DATA_DIR cannot be deduced, set the variable CGAL_DATA_DIR to set the
+[5.678s]   default value of CGAL::data_file_path()
+[5.678s] Call Stack (most recent call first):
+[5.678s]   CMakeLists.txt:168 (find_package)
+[5.678s] 
+[5.679s] [0m
+[5.683s] -- Using header-only CGAL
+[5.686s] -- Targetting Unix Makefiles
+[5.686s] -- Using /usr/lib/ccache/c++ compiler.
+[5.692s] -- Found GMP: /usr/lib/x86_64-linux-gnu/libgmp.so  
+[5.695s] -- Found MPFR: /usr/lib/x86_64-linux-gnu/libmpfr.so  
+[5.704s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.48")  
+[5.705s] -- Boost include dirs: /usr/include
+[5.705s] -- Boost libraries:    
+[5.706s] -- Using gcc version 4 or later. Adding -frounding-math
+[5.708s] -- Build type: 
+[5.708s] -- USING CXXFLAGS = ' '
+[5.709s] -- USING EXEFLAGS = ' '
+[5.709s] -- Requested component: Core
+[7.714s] -- 
+[7.715s] -- Searching for host SSE information
+[7.778s] -- SSE2 found
+[7.779s] -- SSE3 found
+[7.779s] -- SSE4.1 found
+[7.779s] -- SSE4.2 found
+[7.820s] -- Configuring library: gz-waves1-dynamic-geometry-system
+[7.825s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[7.980s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[7.982s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[8.135s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[8.135s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[8.298s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[8.307s] -- Configuring library: gz-waves1-hydrodynamics-system
+[8.316s] -- Configuring library: gz-waves1-rendering
+[8.323s] -- Configuring library: gz-waves1-rendering-ogre2
+[8.330s] -- Configuring library: gz-waves1-waves-visual-system
+[8.337s] -- Configuring library: gz-waves1-waves-model-system
+[8.344s] -- Configuring library: gz-waves1
+[8.351s] -- Testing is disabled -- skipping UNIT tests
+[8.855s] -- Adding codecheck target
+[8.855s] -- Build configuration successful
+[8.855s] -- Build type: RelWithDebInfo
+[8.855s] -- Install prefix: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1
+[8.856s] -- Configuring done
+[8.948s] -- Generating done
+[8.951s] -- Build files have been written to: /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1
+[8.969s] Invoked command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1' returned '0': /usr/bin/cmake /home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves -DCMAKE_INSTALL_PREFIX=/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1
+[8.972s] Invoking command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1': /usr/bin/cmake --build /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1 -- -j8 -l8
+[9.040s] [  4%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Algorithm.cc.o[0m
+[9.041s] [  4%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Convert.cc.o[0m
+[9.042s] [  6%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Geometry.cc.o[0m
+[9.042s] [  8%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Grid.cc.o[0m
+[9.042s] [ 10%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/MeshTools.cc.o[0m
+[9.042s] [ 12%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/OceanTile.cc.o[0m
+[9.043s] [ 14%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/PhysicalConstants.cc.o[0m
+[9.043s] [ 16%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Physics.cc.o[0m
+[9.109s] [ 18%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/SubMeshWithTangents.cc.o[0m
+[9.552s] [ 20%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/TriangulatedGrid.cc.o[0m
+[11.630s] [ 22%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Utilities.cc.o[0m
+[23.765s] [ 25%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Wavefield.cc.o[0m
+[27.080s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[27.080s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28[m[K,
+[27.080s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/MeshTools.cc:16[m[K:
+[27.080s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[27.081s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[27.081s]       |                                                                        [01;36m[K^[m[K
+[27.109s] [ 27%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WavefieldSampler.cc.o[0m
+[29.008s] [ 29%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveParameters.cc.o[0m
+[30.463s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[30.463s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Grid.cc:28[m[K:
+[30.464s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[30.464s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[30.464s]       |                                                                        [01;36m[K^[m[K
+[30.490s] [ 31%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSimulation.cc.o[0m
+[33.251s] [ 33%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomFFTWaveSimulation.cc.o[0m
+[39.534s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[39.535s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[39.535s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/OceanTile.cc:16[m[K:
+[39.535s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[39.535s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[39.535s]       |                                                                        [01;36m[K^[m[K
+[39.594s] [ 35%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomFFTWaveSimulationRef.cc.o[0m
+[39.728s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[39.729s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Physics.cc:31[m[K:
+[39.729s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[39.729s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[39.729s]       |                                                                        [01;36m[K^[m[K
+[39.811s] [ 37%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomWaveSimulation.cc.o[0m
+[42.019s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[42.019s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Utilities.cc:22[m[K:
+[42.019s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[42.020s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[42.020s]       |                                                                        [01;36m[K^[m[K
+[42.068s] [ 39%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRegularWaveSimulation.cc.o[0m
+[43.450s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[43.450s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomFFTWaveSimulation.cc:28[m[K:
+[43.450s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[43.450s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[43.451s]       |                                                                        [01;36m[K^[m[K
+[43.482s] [ 41%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/TrochoidIrregularWaveSimulation.cc.o[0m
+[45.643s] [ 43%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSpectrum.cc.o[0m
+[45.937s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[45.937s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:24[m[K:
+[45.937s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[45.938s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[45.941s]       |                                                                        [01;36m[K^[m[K
+[45.941s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:[m[K In member function ‘[01m[Kvirtual void gz::waves::LinearRandomWaveSimulation::SetSteepness(double)[m[K’:
+[45.941s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomWaveSimulation.cc:494:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[45.942s]   494 | void LinearRandomWaveSimulation::SetSteepness([01;35m[Kdouble value[m[K)
+[45.942s]       |                                               [01;35m[K~~~~~~~^~~~~[m[K
+[45.981s] [ 45%] [32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSpreadingFunction.cc.o[0m
+[47.600s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[47.600s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRandomFFTWaveSimulationRef.cc:40[m[K:
+[47.600s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[47.600s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[47.601s]       |                                                                        [01;36m[K^[m[K
+[48.797s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::Pressure(double, double, double, double&)[m[K’:
+[48.797s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.797s]   187 |     [01;35m[Kdouble x[m[K, double y, double z,
+[48.797s]       |     [01;35m[K~~~~~~~^[m[K
+[48.797s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.797s]   187 |     double x, [01;35m[Kdouble y[m[K, double z,
+[48.798s]       |               [01;35m[K~~~~~~~^[m[K
+[48.798s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:187:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.798s]   187 |     double x, double y, [01;35m[Kdouble z[m[K,
+[48.798s]       |                         [01;35m[K~~~~~~~^[m[K
+[48.798s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:188:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.798s]   188 |     [01;35m[Kdouble &pressure[m[K)
+[48.798s]       |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[48.798s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::Pressure(const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, const Eigen::Ref<const Eigen::Array<double, -1, 1> >&, Eigen::Ref<Eigen::Array<double, -1, 1> >)[m[K’:
+[48.799s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:196:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.799s]   196 |     [01;35m[Kconst Eigen::Ref<const Eigen::ArrayXd>& x[m[K,
+[48.799s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[48.799s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:197:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.799s]   197 |     [01;35m[Kconst Eigen::Ref<const Eigen::ArrayXd>& y[m[K,
+[48.799s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[48.799s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:198:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.799s]   198 |     [01;35m[Kconst Eigen::Ref<const Eigen::ArrayXd>& z[m[K,
+[48.799s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[48.799s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:199:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.800s]   199 |     [01;35m[KEigen::Ref<Eigen::ArrayXd> pressure[m[K)
+[48.800s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[48.800s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::ElevationAt(gz::waves::Index, gz::waves::Index, double&)[m[K’:
+[48.800s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:377:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.800s]   377 |     [01;35m[KIndex ix[m[K, Index iy,
+[48.800s]       |     [01;35m[K~~~~~~^~[m[K
+[48.800s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:377:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.800s]   377 |     Index ix, [01;35m[KIndex iy[m[K,
+[48.800s]       |               [01;35m[K~~~~~~^~[m[K
+[48.801s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:378:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.801s]   378 |     [01;35m[Kdouble &h[m[K)
+[48.801s]       |     [01;35m[K~~~~~~~~^[m[K
+[48.801s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::DisplacementAt(gz::waves::Index, gz::waves::Index, double&, double&)[m[K’:
+[48.802s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:386:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.802s]   386 |     [01;35m[KIndex ix[m[K, Index iy,
+[48.802s]       |     [01;35m[K~~~~~~^~[m[K
+[48.802s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:386:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.802s]   386 |     Index ix, [01;35m[KIndex iy[m[K,
+[48.802s]       |               [01;35m[K~~~~~~^~[m[K
+[48.802s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:387:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.802s]   387 |     [01;35m[Kdouble& sx[m[K, double& sy)
+[48.802s]       |     [01;35m[K~~~~~~~~^~[m[K
+[48.802s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:387:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.803s]   387 |     double& sx, [01;35m[Kdouble& sy[m[K)
+[48.803s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[48.803s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::PressureAt(gz::waves::Index, gz::waves::Index, gz::waves::Index, double&)[m[K’:
+[48.803s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.803s]   395 |     [01;35m[KIndex ix[m[K, Index iy, Index iz,
+[48.803s]       |     [01;35m[K~~~~~~^~[m[K
+[48.803s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.803s]   395 |     Index ix, [01;35m[KIndex iy[m[K, Index iz,
+[48.803s]       |               [01;35m[K~~~~~~^~[m[K
+[48.803s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:395:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.804s]   395 |     Index ix, Index iy, [01;35m[KIndex iz[m[K,
+[48.804s]       |                         [01;35m[K~~~~~~^~[m[K
+[48.804s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:396:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.804s]   396 |     [01;35m[Kdouble &pressure[m[K)
+[48.804s]       |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[48.804s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:[m[K In member function ‘[01m[Kvoid gz::waves::TrochoidIrregularWaveSimulation::Impl::PressureAt(gz::waves::Index, Eigen::Ref<Eigen::Array<double, -1, -1> >)[m[K’:
+[48.804s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:404:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.804s]   404 |     [01;35m[KIndex iz[m[K,
+[48.804s]       |     [01;35m[K~~~~~~^~[m[K
+[48.807s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/TrochoidIrregularWaveSimulation.cc:405:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpressure[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[48.807s]   405 |     [01;35m[KEigen::Ref<Eigen::ArrayXXd> pressure[m[K)
+[48.807s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[51.528s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[51.528s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[51.529s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/Wavefield.cc:27[m[K:
+[51.529s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[51.529s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[51.529s]       |                                                                        [01;36m[K^[m[K
+[52.520s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[52.521s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/WavefieldSampler.cc:25[m[K:
+[52.521s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[52.521s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[52.521s]       |                                                                        [01;36m[K^[m[K
+[52.706s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[52.706s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/WaveParameters.cc:23[m[K:
+[52.706s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[52.706s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[52.706s]       |                                                                        [01;36m[K^[m[K
+[58.777s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation.cc:[m[K In member function ‘[01m[Kvirtual void gz::waves::LinearRegularWaveSimulation::SetSteepness(double)[m[K’:
+[58.777s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/LinearRegularWaveSimulation.cc:581:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[58.777s]   581 | void LinearRegularWaveSimulation::SetSteepness([01;35m[Kdouble value[m[K)
+[58.777s]       |                                                [01;35m[K~~~~~~~^~~~~[m[K
+[58.802s] [ 47%] [32m[1mLinking CXX shared library ../lib/libgz-waves1.so[0m
+[59.357s] [ 47%] Built target gz-waves1
+[59.378s] [ 60%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/OceanVisual.cc.o[0m
+[59.378s] [ 60%] [32mBuilding CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves1-hydrodynamics-system.dir/Hydrodynamics.cc.o[0m
+[59.378s] [ 62%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-waves-model-system.dir/WavesModel.cc.o[0m
+[59.378s] [ 62%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/DisplacementMap.cc.o[0m
+[59.378s] [ 62%] [32mBuilding CXX object src/systems/dynamic/CMakeFiles/gz-waves1-dynamic-geometry-system.dir/DynamicGeometry.cc.o[0m
+[59.378s] [ 60%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/OceanGeometry.cc.o[0m
+[59.379s] [ 60%] [32mBuilding CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves1-hydrodynamics-system.dir/Collision.cc.o[0m
+[59.379s] [ 64%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/BaseRenderEngineExtension.cc.o[0m
+[60.400s] [ 66%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtension.cc.o[0m
+[63.103s] [ 68%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtensionManager.cc.o[0m
+[74.581s] [ 70%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtensionPlugin.cc.o[0m
+[75.288s] [ 72%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/SceneNodeFactory.cc.o[0m
+[83.217s] [ 75%] [32m[1mLinking CXX shared library ../../../lib/libgz-waves1-waves-model-system.so[0m
+[83.761s] [ 75%] Built target gz-waves1-waves-model-system
+[84.297s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[84.298s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[84.298s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[84.298s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.cc:16[m[K:
+[84.298s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[84.298s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[84.298s]       |                                                                        [01;36m[K^[m[K
+[85.413s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[85.413s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[85.413s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[85.413s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+[85.413s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+[85.413s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.hh:27[m[K,
+[85.413s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.cc:16[m[K:
+[85.414s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[85.414s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[85.414s]       |                                                                        [01;36m[K^[m[K
+[85.826s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[85.826s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[85.827s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[85.827s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+[85.827s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+[85.827s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.cc:16[m[K:
+[85.827s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[85.827s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[85.827s]       |                                                                        [01;36m[K^[m[K
+[89.439s] [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtensionManager.cc:463:13:[m[K [01;35m[Kwarning: [m[K'GZ_RENDERING_ENGINE_INSTALL_DIR' macro is deprecated, use gz::rendering::getEngineInstallDir() function instead. 
+[89.439s]   463 |   systemPath[01;35m[Ks.AddPluginPaths({GZ_RENDERING_ENGINE_INSTALL_DIR});[m[K
+[89.439s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                
+[89.439s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[89.439s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[89.440s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[89.440s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+[89.440s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+[89.440s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtensionManager.cc:44[m[K:
+[89.440s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[89.440s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[89.440s]       |                                                                        [01;36m[K^[m[K
+[92.984s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[92.984s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[92.984s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[92.984s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+[92.984s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.cc:16[m[K:
+[92.984s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[92.985s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[92.985s]       |                                                                        [01;36m[K^[m[K
+[93.003s] [ 77%] [32m[1mLinking CXX shared library ../../../lib/libgz-waves1-rendering.so[0m
+[93.165s] [ 77%] Built target gz-waves1-rendering
+[93.199s] [ 81%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2DynamicMesh.cc.o[0m
+[93.201s] [ 81%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2DisplacementMap.cc.o[0m
+[93.202s] [ 83%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-waves-visual-system.dir/WavesVisual.cc.o[0m
+[93.205s] [ 85%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2RenderEngineExtension.cc.o[0m
+[93.214s] [ 87%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2OceanGeometry.cc.o[0m
+[93.216s] [ 89%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2OceanVisual.cc.o[0m
+[97.660s] In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+[97.660s]                  from [01m[K/usr/include/OGRE-2.3/OgreItem.h:31[m[K,
+[97.661s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/dynamic/DynamicGeometry.cc:43[m[K:
+[97.661s] [01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+[97.661s]   360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+[97.661s]       |                                                                                                      [01;36m[K^[m[K
+[97.685s] [ 91%] [32m[1mLinking CXX shared library ../../../lib/libgz-waves1-dynamic-geometry-system.so[0m
+[98.677s] [ 91%] Built target gz-waves1-dynamic-geometry-system
+[98.692s] [ 93%] [32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2SceneNodeFactory.cc.o[0m
+[100.245s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[100.245s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanGeometry.cc:18[m[K:
+[100.245s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[100.245s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[100.245s]       |                                                                        [01;36m[K^[m[K
+[100.245s] In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+[100.245s]                  from [01m[K/usr/include/OGRE-2.3/Hlms/Pbs/OgreHlmsPbsPrerequisites.h:31[m[K,
+[100.245s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Material.hh:29[m[K,
+[100.245s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanGeometry.cc:19[m[K:
+[100.246s] [01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+[100.246s]   360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+[100.246s]       |                                                                                                      [01;36m[K^[m[K
+[104.545s] In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+[104.545s]                  from [01m[K/usr/include/OGRE-2.3/OgrePixelFormatGpu.h:31[m[K,
+[104.545s]                  from [01m[K/usr/include/OGRE-2.3/OgreHlmsPso.h:31[m[K,
+[104.546s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DynamicMesh.hh:52[m[K,
+[104.546s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DynamicMesh.cc:35[m[K:
+[104.546s] [01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+[104.546s]   360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+[104.546s]       |                                                                                                      [01;36m[K^[m[K
+[105.009s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[105.009s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/MeshTools.hh:28[m[K,
+[105.009s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/hydrodynamics/Hydrodynamics.cc:54[m[K:
+[105.009s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[105.010s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[105.010s]       |                                                                        [01;36m[K^[m[K
+[105.030s] [ 95%] [32m[1mLinking CXX shared library ../../../lib/libgz-waves1-hydrodynamics-system.so[0m
+[105.580s] [ 95%] Built target gz-waves1-hydrodynamics-system
+[114.658s] In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+[114.659s]                  from [01m[K/usr/include/OGRE-2.3/Ogre.h:31[m[K,
+[114.659s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Includes.hh:32[m[K,
+[114.659s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh:32[m[K,
+[114.659s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2.hh:25[m[K,
+[114.659s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.hh:28[m[K,
+[114.659s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.cc:16[m[K:
+[114.659s] [01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+[114.659s]   360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+[114.659s]       |                                                                                                      [01;36m[K^[m[K
+[118.095s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/RenderEngineExtension.hh:45[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/BaseRenderEngineExtension.hh:27[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2RenderEngineExtension.hh:31[m[K,
+[118.095s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2RenderEngineExtension.cc:16[m[K:
+[118.095s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[118.095s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[118.096s]       |                                                                        [01;36m[K^[m[K
+[120.484s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[120.484s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[120.485s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.hh:24[m[K,
+[120.485s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.cc:16[m[K:
+[120.485s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[120.485s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[120.485s]       |                                                                        [01;36m[K^[m[K
+[120.485s] In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+[120.485s]                  from [01m[K/usr/include/OGRE-2.3/Hlms/Pbs/OgreHlmsPbsPrerequisites.h:31[m[K,
+[120.485s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Material.hh:29[m[K,
+[120.486s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2OceanVisual.cc:20[m[K:
+[120.486s] [01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+[120.486s]   360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+[120.486s]       |                                                                                                      [01;36m[K^[m[K
+[122.709s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[122.709s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[122.709s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/WavesVisual.cc:74[m[K:
+[122.709s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[122.709s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[122.710s]       |                                                                        [01;36m[K^[m[K
+[122.727s] [ 97%] [32m[1mLinking CXX shared library ../../../lib/libgz-waves1-waves-visual-system.so[0m
+[123.058s] [ 97%] Built target gz-waves1-waves-visual-system
+[127.824s] In file included from [01m[K/usr/include/gz/common5/gz/common.hh:35[m[K,
+[127.824s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/include/gz/waves/OceanTile.hh:24[m[K,
+[127.824s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/OceanVisual.hh:29[m[K,
+[127.824s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/SceneNodeFactory.hh:27[m[K,
+[127.825s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.hh:25[m[K,
+[127.825s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.cc:16[m[K:
+[127.825s] [01m[K/usr/include/gz/common5/gz/common/SuppressWarning.hh:23:72:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: gz-common SuppressWarning is deprecated, use gz-utils[m[K’
+[127.825s]    23 | #pragma message("gz-common SuppressWarning is deprecated, use gz-utils"[01;36m[K)[m[K
+[127.825s]       |                                                                        [01;36m[K^[m[K
+[127.825s] In file included from [01m[K/usr/include/OGRE-2.3/OgrePrerequisites.h:30[m[K,
+[127.825s]                  from [01m[K/usr/include/OGRE-2.3/Ogre.h:31[m[K,
+[127.825s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2Includes.hh:32[m[K,
+[127.825s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh:32[m[K,
+[127.825s]                  from [01m[K/usr/include/gz/rendering7/gz/rendering/ogre2.hh:25[m[K,
+[127.825s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2DisplacementMap.hh:28[m[K,
+[127.825s]                  from [01m[K/home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves/src/systems/waves/Ogre2SceneNodeFactory.cc:25[m[K:
+[127.826s] [01m[K/usr/include/OGRE-2.3/OgrePlatform.h:360:102:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ogre can't tell whether this is a debug build. If it is, please add _DEBUG to the preprocessor definitions. Otherwise, you can set OGRE_IGNORE_UNKNOWN_DEBUG to suppress this warning. Ogre will assume this is not a debug build by default. To add _DEBUG with g++, invoke g++ with the argument -D_DEBUG. To add it in CMake, include set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1 -D_DEBUG=1" ) at the top of your CMakeLists.txt file. IDEs usually provide the possibility to add preprocessor definitions in the build settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG.[m[K’
+[127.826s]   360 |     "settings. You can also manually set OGRE_DEBUG_MODE to either 1 or 0 instead of adding _DEBUG." [01;36m[K)[m[K
+[127.826s]       |                                                                                                      [01;36m[K^[m[K
+[127.857s] [100%] [32m[1mLinking CXX shared library ../../../lib/libgz-waves1-rendering-ogre2.so[0m
+[128.217s] [100%] Built target gz-waves1-rendering-ogre2
+[128.232s] Invoked command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1' returned '0': /usr/bin/cmake --build /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1 -- -j8 -l8
+[128.301s] Invoking command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1': /usr/bin/cmake --install /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1
+[128.313s] -- Install configuration: "RelWithDebInfo"
+[128.313s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-all/gz-waves1-all-config.cmake
+[128.313s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-all/gz-waves1-all-config-version.cmake
+[128.313s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-all/gz-waves1-all-targets.cmake
+[128.314s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/detail/Export.hh
+[128.314s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Export.hh
+[128.315s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1.so.1.0.0
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1.so.1
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1.so
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-config.cmake
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-config-version.cmake
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-targets.cmake
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1/gz-waves1-targets-relwithdebinfo.cmake
+[128.361s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1.pc
+[128.362s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh
+[128.362s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh
+[128.362s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so.1
+[128.367s] -- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0" to ""
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-dynamic-geometry-system.so
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config.cmake
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config-version.cmake
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets.cmake
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets-relwithdebinfo.cmake
+[128.367s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-dynamic-geometry-system.pc
+[128.368s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh
+[128.368s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh
+[128.368s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so.1.0.0
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so.1
+[128.378s] -- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so.1.0.0" to ""
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-hydrodynamics-system.so
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config.cmake
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config-version.cmake
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets.cmake
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets-relwithdebinfo.cmake
+[128.378s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-hydrodynamics-system.pc
+[128.379s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering/detail/Export.hh
+[128.379s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering/Export.hh
+[128.379s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so.1.0.0
+[128.382s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so.1
+[128.382s] -- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so.1.0.0" to ""
+[128.382s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering.so
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config.cmake
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config-version.cmake
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets.cmake
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets-relwithdebinfo.cmake
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-rendering.pc
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh
+[128.383s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh
+[128.384s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so.1.0.0
+[128.391s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so.1
+[128.391s] -- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so.1.0.0" to ""
+[128.391s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-rendering-ogre2.so
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config.cmake
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config-version.cmake
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets.cmake
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets-relwithdebinfo.cmake
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-rendering-ogre2.pc
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-visual-system/Export.hh
+[128.392s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so.1.0.0
+[128.399s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so.1
+[128.399s] -- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so.1.0.0" to ""
+[128.399s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-visual-system.so
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config.cmake
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config-version.cmake
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets.cmake
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets-relwithdebinfo.cmake
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-waves-visual-system.pc
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/waves-model-system/Export.hh
+[128.400s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so.1.0.0
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so.1
+[128.404s] -- Set runtime path of "/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so.1.0.0" to ""
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/libgz-waves1-waves-model-system.so
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config.cmake
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config-version.cmake
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets.cmake
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets-relwithdebinfo.cmake
+[128.404s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/lib/pkgconfig/gz-waves1-waves-model-system.pc
+[128.405s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/components/Wavefield.hh
+[128.405s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Algorithm.hh
+[128.405s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/CGALTypes.hh
+[128.405s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Convert.hh
+[128.405s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Geometry.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Grid.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/MeshTools.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/OceanTile.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/PhysicalConstants.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Physics.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/TriangulatedGrid.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Types.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Utilities.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveParameters.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveSimulation.hh
+[128.406s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveSpectrum.hh
+[128.407s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh
+[128.407s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/Wavefield.hh
+[128.407s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/WavefieldSampler.hh
+[128.407s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/../waves.hh
+[128.407s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/config.hh
+[128.407s] -- Installing: /home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1/include/gz/waves1/gz/waves/components.hh
+[128.409s] Invoked command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1' returned '0': /usr/bin/cmake --install /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1

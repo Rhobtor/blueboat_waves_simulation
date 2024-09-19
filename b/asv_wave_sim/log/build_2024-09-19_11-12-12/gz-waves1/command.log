@@ -1,0 +1,6 @@
+Invoking command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1': /usr/bin/cmake /home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves -DCMAKE_INSTALL_PREFIX=/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1
+Invoked command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1' returned '0': /usr/bin/cmake /home/aceti/ASV_WORK/b/asv_wave_sim/gz-waves -DCMAKE_INSTALL_PREFIX=/home/aceti/ASV_WORK/b/asv_wave_sim/install/gz-waves1
+Invoking command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1': /usr/bin/cmake --build /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1 -- -j8 -l8
+Invoked command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1' returned '0': /usr/bin/cmake --build /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1 -- -j8 -l8
+Invoking command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1': /usr/bin/cmake --install /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1
+Invoked command in '/home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1' returned '0': /usr/bin/cmake --install /home/aceti/ASV_WORK/b/asv_wave_sim/build/gz-waves1
