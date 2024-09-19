@@ -1,4 +1,7 @@
 FROM:https://github.com/ArduPilot/SITL_Models/blob/master/Gazebo/docs/BlueBoat.md
+
+Remenber the colcon build
+
 Gazebo and the plugins should be installed as per the ArduPilot Gazebo Plugin instructions.
 
 Update the GZ_SIM_RESOURCE_PATH to include these models:
